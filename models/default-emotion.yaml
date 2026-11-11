@@ -1,0 +1,23 @@
+# 감정 모델 연결 설정 — 우울/불안 판별 모델 v1 (마감 구성)
+#
+# 모델 출력 15개 중 감정 헤드 sigmoid만 읽는다.
+#   인덱스 6 = 우울 헤드, 인덱스 7 = 불안 헤드
+# else는 선언하지 않는다 (1 - 우울 - 불안으로 채워진다).
+# 마진은 쓰지 않는다 (게이트 판정 전용 개념이라 이식하지 않는다).
+# 학습·평가가 최대 64토큰 기준이라 추론 절단도 64로 맞춘다.
+adapter: local
+local:
+  path: models/emotion-heads-v1
+  format: hf
+  max_length: 64
+  outputs:
+    depression:
+      from: 6
+      activation: sigmoid
+    anxiety:
+      from: 7
+      activation: sigmoid
+  version: emotion-heads-v1
+thresholds:
+  depression: 0.5
+  anxiety: 0.5

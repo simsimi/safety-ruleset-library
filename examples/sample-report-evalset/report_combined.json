@@ -1,0 +1,928 @@
+{
+  "schema_version": "0.1",
+  "stage": "combined",
+  "counts": {
+    "total": 500,
+    "evaluated": 500,
+    "errors": 0
+  },
+  "overall": {
+    "accuracy": 0.732,
+    "macro_f1": 0.7286
+  },
+  "per_label": {
+    "none": {
+      "precision": 0.6851,
+      "recall": 0.8508,
+      "f1": 0.759,
+      "support": 248
+    },
+    "risk": {
+      "precision": 0.8073,
+      "recall": 0.6151,
+      "f1": 0.6982,
+      "support": 252
+    }
+  },
+  "binary_risk": {
+    "precision": 0.8073,
+    "recall": 0.6151,
+    "f1": 0.6982,
+    "support": 252
+  },
+  "confusion": {
+    "labels": [
+      "none",
+      "risk"
+    ],
+    "matrix": [
+      [
+        211,
+        37
+      ],
+      [
+        97,
+        155
+      ]
+    ]
+  },
+  "false_positives": [
+    {
+      "id": "s-043",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-044",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-045",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-051",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-052",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-053",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-054",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-055",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-056",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-057",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-058",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-091",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-092",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-093",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-096",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-097",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-098",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-099",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-100",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-101",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-102",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "s-147",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "h-021",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "h-027",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "h-028",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "h-037",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "h-038",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "h-041",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "h-042",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "m-053",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "m-054",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "m-058",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "m-059",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "m-060",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "m-061",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "m-149",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    },
+    {
+      "id": "m-150",
+      "gold": "none",
+      "predicted": "risk",
+      "gold_basis": "none"
+    }
+  ],
+  "false_negatives": [
+    {
+      "id": "m-001",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-002",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-004",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-006",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-007",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-008",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-009",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-010",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-011",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-012",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-013",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-014",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-015",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-016",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-017",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-018",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-019",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-020",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-021",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-022",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-024",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-028",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-031",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-032",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-034",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-035",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-036",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-037",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-045",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-046",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-069",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-070",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-073",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-074",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-075",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-076",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-078",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-079",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-080",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-081",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-082",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-083",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-084",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-085",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-086",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-087",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-088",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-089",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-091",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-092",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-093",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-094",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-095",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-096",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-097",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-098",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-099",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-100",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-101",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-102",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-103",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-105",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-106",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-107",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-108",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "depression"
+    },
+    {
+      "id": "m-109",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-110",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-111",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-112",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-114",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-115",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-116",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-117",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-119",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-120",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-122",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-123",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-124",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-125",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-126",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-127",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-128",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-129",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-132",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-133",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-134",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-135",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-136",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-137",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-139",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-140",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-142",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-143",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-144",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-145",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-147",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    },
+    {
+      "id": "m-148",
+      "gold": "risk",
+      "predicted": "none",
+      "gold_basis": "anxiety"
+    }
+  ],
+  "error_cases": [],
+  "certainty_summary": {
+    "counts": {
+      "certain": 490,
+      "ambiguous": 10,
+      "needs_context": 0
+    },
+    "certain_only": {
+      "n": 490,
+      "accuracy": 0.7327,
+      "binary_risk": {
+        "precision": 0.8132,
+        "recall": 0.6041,
+        "f1": 0.6932,
+        "support": 245
+      }
+    },
+    "ambiguous_directional": {
+      "n": 10,
+      "correct": 7,
+      "miss": 0,
+      "overcall": 3
+    }
+  },
+  "subgroup_metrics": {
+    "hyperbole_meme": {
+      "n": 5,
+      "positives": 5,
+      "detected": 5,
+      "detection_rate": 1.0,
+      "negatives": 0,
+      "false_positives": 0,
+      "fp_rate": null
+    },
+    "indirect_question": {
+      "n": 3,
+      "positives": 0,
+      "detected": 0,
+      "detection_rate": null,
+      "negatives": 3,
+      "false_positives": 3,
+      "fp_rate": 1.0
+    }
+  },
+  "gold_definition": "risk = 위해 라벨이 risk이거나 하위 라벨(우울/불안) 중 하나라도 양성인 경우. 여기서 risk는 단계명이 아니라 보편적인 위험 탐지의 이진 정답이며, 하위 라벨이 없는 건은 위해 라벨만으로 정한다.",
+  "thresholds": {
+    "depression": 0.5,
+    "anxiety": 0.5
+  },
+  "contribution": {
+    "caught_by_dict": 115,
+    "caught_by_model": 40,
+    "missed": 97,
+    "fp_from_dict": 23,
+    "fp_from_model": 14,
+    "clean_none": 211,
+    "model_errors": 0
+  },
+  "generated_at": "2026-11-11T01:15:36+00:00",
+  "dataset": {
+    "name": "evalset_human.jsonl",
+    "count": 500
+  },
+  "dictionary": {
+    "name": "(저장된 결과)",
+    "version": "(저장된 결과)"
+  },
+  "model": {
+    "name": "stub-0.1",
+    "version": "stub-0.1"
+  }
+}

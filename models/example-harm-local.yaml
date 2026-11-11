@@ -1,0 +1,16 @@
+# 위해 모델 로컬 연결 예시 — 이진 분류(비진성/진성) 모델을 위해 확률로 연결한다.
+# path는 사용하는 사람의 모델 폴더로 바꾼다. 모델 파일 자체는 이 프로젝트에
+# 포함되지 않으며, 진성 확률을 내는 분류 모델이면 형식을 맞춰 연결할 수 있다.
+adapter: local
+local:
+  format: hf
+  path: models/your-harm-model
+  # 출력 선언: 클래스 1(진성)의 softmax 확률을 위해 확률로 쓴다.
+  # 클래스 순서는 모델의 id2label을 따르며, 이름으로도 지정할 수 있다.
+  harm_output:
+    from: 1
+    activation: softmax
+    group: [0, 1]
+policy:
+  confirm: 0.5
+  standalone: 0.4

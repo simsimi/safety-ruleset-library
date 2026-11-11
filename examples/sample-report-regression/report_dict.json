@@ -1,0 +1,193 @@
+{
+  "schema_version": "0.1",
+  "stage": "dict",
+  "counts": {
+    "total": 271,
+    "evaluated": 271,
+    "errors": 0
+  },
+  "overall": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  "per_label": {
+    "none": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 147
+    },
+    "risk": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 124
+    }
+  },
+  "binary_risk": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 124
+  },
+  "confusion": {
+    "labels": [
+      "none",
+      "risk"
+    ],
+    "matrix": [
+      [
+        147,
+        0
+      ],
+      [
+        0,
+        124
+      ]
+    ]
+  },
+  "false_positives": [],
+  "false_negatives": [],
+  "error_cases": [],
+  "pattern_stats": [
+    {
+      "pattern_id": "dg-risk-word",
+      "hits": 61,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-01",
+      "hits": 27,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-will",
+      "hits": 6,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-10",
+      "hits": 5,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-jump",
+      "hits": 4,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-02",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-02",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-01",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-dg-01",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-08",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-13",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-14",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-15",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-17",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-18",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-16",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-03",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-04",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-07",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-04",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-03",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-em-01",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-09",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-08",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-10",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-12",
+      "hits": 1,
+      "fp_hits": 0
+    }
+  ],
+  "generated_at": "2026-11-11T01:15:36+00:00",
+  "dataset": {
+    "name": "testset.jsonl",
+    "count": 271
+  },
+  "dictionary": {
+    "name": "(저장된 결과)",
+    "version": "(저장된 결과)"
+  }
+}

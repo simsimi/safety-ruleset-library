@@ -1,0 +1,16 @@
+# 로컬 모델 어댑터 설정 예시.
+# 설치: pip install -e ".[local-onnx]"  (ONNX)  또는  ".[local-hf]"  (HuggingFace)
+adapter: local
+local:
+  path: models/my-model            # .onnx 파일, 또는 모델 폴더
+  format: auto                     # auto | onnx | hf
+  # tokenizer: models/my-model     # 생략하면 path와 같은 곳
+  # class_labels: [depression, anxiety, else]   # ONNX용. HF는 모델 config에서 읽음
+  # label_map:                     # 클래스 이름/인덱스 -> 점수 키 (목록은 합산)
+  #   depression: depression
+  #   anxiety: anxiety
+  #   else: [other_negative, calm] # 게이트형 4분류의 경우
+  version: my-model-1.0
+thresholds:
+  depression: 0.5
+  anxiety: 0.5

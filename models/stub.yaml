@@ -1,0 +1,5 @@
+# 데모용 스텁 어댑터 설정. 실제 모델이 아니다 — 파이프라인 동작 확인 전용.
+adapter: stub
+thresholds:
+  depression: 0.5
+  anxiety: 0.5

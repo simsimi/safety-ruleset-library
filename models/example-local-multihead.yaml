@@ -1,0 +1,35 @@
+# local 어댑터 예시 — 출력 구조가 복합적인 모델 (게이트 + 감정 헤드 혼합형)
+#
+# 연결은 두 층이다.
+# 1) 출력 선언: 모델이 내는 출력을 순서대로 선언한다 (ONNX는 class_labels,
+#    HuggingFace는 모델의 id2label이 그 역할을 한다).
+# 2) 변형 규칙(outputs): 선언된 출력을 어떻게 변형/계산해서 이 도구가 요구하는
+#    {depression, anxiety, else} 점수로 바꿀지 점수 키마다 정한다.
+#
+# 아래는 "게이트 4분류(softmax 그룹) + 감정별 이진 헤드(sigmoid)" 구조의 예시다.
+adapter: local
+local:
+  path: models/your-model          # ONNX 파일/폴더 또는 HF 모델 폴더
+  format: auto                     # onnx | hf | auto
+  # 출력 선언 (ONNX일 때만 필요, 출력 순서대로)
+  # class_labels: [gate_depression, gate_anxiety, gate_other, gate_calm,
+  #                head_depression, head_anxiety, head_tension, ...]
+  outputs:
+    depression:
+      from: head_depression        # 우울 헤드의 출력 하나
+      activation: sigmoid          # 헤드 로짓에 sigmoid를 건 확률이 점수다
+    anxiety:
+      from: head_anxiety
+      activation: sigmoid
+    else:
+      from: [gate_other, gate_calm]
+      activation: softmax          # 게이트 그룹 안에서만 softmax해 합산
+      group: [gate_depression, gate_anxiety, gate_other, gate_calm]
+      # combine: sum               # from이 여러 개일 때 조합법: sum(기본)|max|mean
+  version: my-model-1.0
+thresholds:
+  depression: 0.5
+  anxiety: 0.5
+  # margin: 0.3                    # 신호가 else보다 이 값 이상 커야 신호로 본다.
+                                   # else를 '평온'(gate_calm)만으로 선언한 게이트형
+                                   # 모델의 마진 판정을 재현할 때 쓴다.

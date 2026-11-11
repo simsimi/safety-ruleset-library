@@ -1,0 +1,1195 @@
+{
+  "schema_version": "0.1",
+  "stage": "dict",
+  "counts": {
+    "total": 500,
+    "evaluated": 500,
+    "errors": 0
+  },
+  "overall": {
+    "accuracy": 0.652,
+    "macro_f1": 0.635
+  },
+  "per_label": {
+    "none": {
+      "precision": 0.8411,
+      "recall": 0.62,
+      "f1": 0.7138,
+      "support": 350
+    },
+    "risk": {
+      "precision": 0.4504,
+      "recall": 0.7267,
+      "f1": 0.5561,
+      "support": 150
+    }
+  },
+  "binary_risk": {
+    "precision": 0.4504,
+    "recall": 0.7267,
+    "f1": 0.5561,
+    "support": 150
+  },
+  "confusion": {
+    "labels": [
+      "none",
+      "risk"
+    ],
+    "matrix": [
+      [
+        217,
+        133
+      ],
+      [
+        41,
+        109
+      ]
+    ]
+  },
+  "false_positives": [
+    {
+      "id": "b30-001",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-005",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-007",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-008",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-011",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-012",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-016",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-017",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-022",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-030",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-042",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-046",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-056",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-064",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-065",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-066",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-076",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-084",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-088",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-091",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-094",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-095",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-104",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-105",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-106",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-107",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-110",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-118",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-120",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-125",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-133",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-134",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-135",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-139",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-149",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-150",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-160",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-162",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-168",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-169",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-171",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-172",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-174",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-177",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-184",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-185",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-189",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-192",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-197",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-201",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-207",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-217",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-219",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-222",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-224",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-226",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-236",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-238",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-252",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-255",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-257",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-258",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-259",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-266",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-268",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-269",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-271",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-272",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-275",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-278",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-280",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-282",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-283",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-293",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-294",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-302",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-304",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-309",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-310",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-314",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-316",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-318",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-319",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-320",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-323",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-324",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-325",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-334",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-336",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-343",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-350",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-351",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-353",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-354",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-360",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-363",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-365",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-369",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-372",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-373",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-374",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-376",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-377",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-378",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-383",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-388",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-392",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-393",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-397",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-399",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-401",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-403",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-405",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-407",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-417",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-420",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-421",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-427",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-428",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-436",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-439",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-451",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-456",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-459",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-467",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-471",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-472",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-475",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-483",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-485",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-489",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-492",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-499",
+      "gold": "none",
+      "predicted": "risk"
+    }
+  ],
+  "false_negatives": [
+    {
+      "id": "b30-002",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-004",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-035",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-038",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-040",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-041",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-063",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-072",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-073",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-113",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-119",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-122",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-140",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-148",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-152",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-153",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-164",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-235",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-239",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-240",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-241",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-247",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-286",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-289",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-313",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-317",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-335",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-337",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-338",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-342",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-385",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-396",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-409",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-418",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-423",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-442",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-443",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-465",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-476",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-480",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-491",
+      "gold": "risk",
+      "predicted": "none"
+    }
+  ],
+  "error_cases": [],
+  "pattern_stats": [
+    {
+      "pattern_id": "dg-risk-word",
+      "hits": 68,
+      "fp_hits": 43
+    },
+    {
+      "pattern_id": "dg-phrase-01",
+      "hits": 59,
+      "fp_hits": 47
+    },
+    {
+      "pattern_id": "dg-phrase-14",
+      "hits": 10,
+      "fp_hits": 5
+    },
+    {
+      "pattern_id": "ex2-19",
+      "hits": 9,
+      "fp_hits": 1
+    },
+    {
+      "pattern_id": "em-jump",
+      "hits": 8,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-08",
+      "hits": 7,
+      "fp_hits": 5
+    },
+    {
+      "pattern_id": "ex-dg-01",
+      "hits": 7,
+      "fp_hits": 5
+    },
+    {
+      "pattern_id": "ex3-05",
+      "hits": 7,
+      "fp_hits": 3
+    },
+    {
+      "pattern_id": "em-will",
+      "hits": 6,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-10",
+      "hits": 6,
+      "fp_hits": 5
+    },
+    {
+      "pattern_id": "ex3-06",
+      "hits": 6,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex3-03",
+      "hits": 5,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-16",
+      "hits": 5,
+      "fp_hits": 2
+    },
+    {
+      "pattern_id": "ex3-04",
+      "hits": 5,
+      "fp_hits": 2
+    },
+    {
+      "pattern_id": "dg-phrase-15",
+      "hits": 5,
+      "fp_hits": 2
+    },
+    {
+      "pattern_id": "ex3-01",
+      "hits": 5,
+      "fp_hits": 4
+    },
+    {
+      "pattern_id": "ex2-04",
+      "hits": 3,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-08",
+      "hits": 3,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex3-18",
+      "hits": 3,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-13",
+      "hits": 3,
+      "fp_hits": 2
+    },
+    {
+      "pattern_id": "ex2-18",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex2-07",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex3-13",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex3-02",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-17",
+      "hits": 2,
+      "fp_hits": 2
+    },
+    {
+      "pattern_id": "dg-phrase-09",
+      "hits": 2,
+      "fp_hits": 2
+    },
+    {
+      "pattern_id": "ex2-03",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-18",
+      "hits": 2,
+      "fp_hits": 2
+    },
+    {
+      "pattern_id": "ex2-08",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex3-09",
+      "hits": 2,
+      "fp_hits": 1
+    },
+    {
+      "pattern_id": "em-phrase-09",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-em-01",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex2-09",
+      "hits": 2,
+      "fp_hits": 2
+    },
+    {
+      "pattern_id": "ex-em-02",
+      "hits": 2,
+      "fp_hits": 1
+    },
+    {
+      "pattern_id": "ex-dg-05",
+      "hits": 2,
+      "fp_hits": 1
+    },
+    {
+      "pattern_id": "ex-dg-06",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-10",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-04",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex2-06",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-02",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-12",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex2-05",
+      "hits": 1,
+      "fp_hits": 1
+    },
+    {
+      "pattern_id": "ex-dg-02",
+      "hits": 1,
+      "fp_hits": 1
+    },
+    {
+      "pattern_id": "ex2-13",
+      "hits": 1,
+      "fp_hits": 1
+    },
+    {
+      "pattern_id": "em-phrase-01",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-03",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-12",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex3-10",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-11",
+      "hits": 1,
+      "fp_hits": 1
+    },
+    {
+      "pattern_id": "ex3-07",
+      "hits": 1,
+      "fp_hits": 1
+    },
+    {
+      "pattern_id": "ex2-15",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex2-01",
+      "hits": 1,
+      "fp_hits": 0
+    }
+  ],
+  "generated_at": "2026-11-11T01:15:37+00:00",
+  "dataset": {
+    "name": "evalset_balanced30.jsonl",
+    "count": 500
+  },
+  "dictionary": {
+    "name": "(저장된 결과)",
+    "version": "(저장된 결과)"
+  }
+}

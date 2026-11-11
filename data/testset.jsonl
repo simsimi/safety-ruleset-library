@@ -1,0 +1,271 @@
+{"id": "s-001", "text": "요즘 진짜 죽고 싶어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: test_risk_words"}
+{"id": "s-002", "text": "약을 다 먹었어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: test_risk_words"}
+{"id": "s-003", "text": "배고파 죽겠다", "label": "none", "source": "rule-test", "note": "규칙 테스트: test_risk_words"}
+{"id": "s-004", "text": "자살", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-005", "text": "자해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-006", "text": "자살하고 싶다", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-007", "text": "나 자해했어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-008", "text": "죽고싶어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-009", "text": "살기 싫어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-010", "text": "사라지고 싶다", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-011", "text": "그냥 다 끝내고 싶어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-012", "text": "목숨을 끊고 싶어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-013", "text": "목숨 끊을래", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-014", "text": "극단적 선택을 생각해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-015", "text": "극단적인 선택", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-016", "text": "스스로 목숨을", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-017", "text": "투신하고 싶어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-018", "text": "투신", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-019", "text": "나자살할래", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-020", "text": "또자해했어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-021", "text": "요즘자해해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-022", "text": "ㅋㅋ자살각", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-023", "text": "하다가자살생각했어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-024", "text": "자해가 습관이 됐어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-025", "text": "어제자해했어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-026", "text": "자주자해해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-027", "text": "이제자살할래", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-028", "text": "갑자기자살하고싶어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-029", "text": "항상자해함", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-030", "text": "한강투신할거야", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-031", "text": "나투신할래", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-032", "text": "씨발 죽고 싶다", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-033", "text": "너 때문에 죽고 싶어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-034", "text": "이러니 죽고 싶지", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-035", "text": "죽고 싶지?", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-036", "text": "나 왜 이렇게 죽고 싶지?", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-037", "text": "자살해 버리고 싶어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-038", "text": "자살해버리고싶어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-039", "text": "자살이나 해야지", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-040", "text": "자살해야겠다", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-041", "text": "자살해버려야지", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-042", "text": "죽고 싶냐고 묻지 마 나 진짜 죽고 싶어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-043", "text": "친구들이 자살하라고 해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-044", "text": "자살하라는 댓글이 달렸어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-045", "text": "걔가 나보고 자살해라고 했어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-046", "text": "나 오늘 자살해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-047", "text": "오늘 자살해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-048", "text": "저 이제 자살해요", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-049", "text": "난 그냥 자살해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-050", "text": "자해하라는 목소리가 들려", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-051", "text": "자꾸 누가 자해하라고 해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-052", "text": "걔네가 자해하라고 시켰어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-053", "text": "엄마가 나보고 자살하라 그랬어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-054", "text": "애들이 나보고 자살해라 그래", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-055", "text": "아빠가 나가서 자살이나 해라 그랬어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-056", "text": "자살하세요라는 댓글이 달렸어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-057", "text": "나보고 자살하라니", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-058", "text": "자살하라더라", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-059", "text": "자살하라면 할게", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-060", "text": "그냥 자살하든가 해야지", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-061", "text": "자살하든지 해야겠어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-062", "text": "확 자살하든가", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-063", "text": "자해하든가 해야 풀릴 것 같아", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-064", "text": "자살이나 해 볼까", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-065", "text": "자살이나 해 볼까요", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-066", "text": "그냥 자살이나 해 버릴까 봐", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-067", "text": "자살이나 해 버리고 싶다", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-068", "text": "자해나 해 볼까", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-069", "text": "나 오늘 밤에 한강 가서 자살해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-070", "text": "나는 이대로 가다간 진짜 자살해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-071", "text": "난 어차피 조만간 혼자 조용히 자살해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-072", "text": "오늘은 진짜 자살해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-073", "text": "이러다 진짜 자살해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-074", "text": "우리 같이 자살해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-075", "text": "나... 자살해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-076", "text": "나자살해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-077", "text": "자살해ㅠㅠ", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-078", "text": "진짜로\n자살해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-079", "text": "내가 왜 죽고 싶냐면 아무도 날 안 좋아해서야", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-080", "text": "제가 왜 죽고 싶냐면요 학교에서 따돌림을 당해요", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-081", "text": "얼마나 살기 싫냐면 밥도 안 넘어가", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-082", "text": "얼마나 죽고 싶냐면 매일 옥상에 올라가", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-083", "text": "죽고 싶냐고? 응", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-084", "text": "엄마가 죽고 싶냐고 물어서 그렇다고 했어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-085", "text": "어제 죽고 싶어서 난리였어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-086", "text": "요즘 죽고 싶어서 환장하겠어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-087", "text": "넌 죽고 싶은 내 마음 몰라", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-088", "text": "너 지금 죽고 싶은 사람이랑 얘기하고 있는 거야", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-089", "text": "네가 죽고 싶은 내 기분을 알아?", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-090", "text": "니가 살기 싫은 내 맘을 알아?", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-091", "text": "너도 죽고 싶을 때 있어?", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-092", "text": "너는 죽고 싶었던 적 없어?", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-093", "text": "넌 죽고 싶을 때 어떻게 해?", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-094", "text": "넌 정말 죽고 싶은 적 없었어? 난 매일이야", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-095", "text": "아무도 내가 죽고 싶은 걸 몰라", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-096", "text": "언니가 죽고 싶대", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-097", "text": "어머니가 죽고 싶다고 하셔", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-098", "text": "할머니가 살기 싫다고 자꾸 그러셔", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-099", "text": "언니가 죽고 싶어?", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-100", "text": "어머니가 살기 싫구나 하셨어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-101", "text": "아이돌 가수 자살 소식 봤어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-102", "text": "죽고 싶다는 생각은 안 해", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-103", "text": "사망하고 싶어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-104", "text": "그냥 사망하고싶다", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-105", "text": "살해당하고 싶어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-106", "text": "누가 날 살해했으면 좋겠어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-107", "text": "누가 나를 살해해 줬으면 좋겠어", "label": "danger", "source": "rule-test", "note": "규칙 테스트: 위험으로 잡는 말"}
+{"id": "s-108", "text": "살인 충동이 들어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-109", "text": "걔를 살해하고 싶어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-110", "text": "살해 협박을 받았어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-111", "text": "다 도륙 내고 싶다", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-112", "text": "살육", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-113", "text": "시해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-114", "text": "성폭행 당했어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-115", "text": "어제 강간당할 뻔했어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-116", "text": "겁탈", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-117", "text": "겁간", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-118", "text": "나 살인 충동 들어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-119", "text": "나살인하고싶어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-120", "text": "살인을 저지르고 싶어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-121", "text": "그 살인범 잡혔대", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-122", "text": "누가날살해하려해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-123", "text": "시해했대", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-124", "text": "어제강간당했어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-125", "text": "나강간당했어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-126", "text": "성폭력을 당했어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-127", "text": "성추행 당했어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-128", "text": "할머니가 사망하셨어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-129", "text": "교통사고로 세 명이 사망했대", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-130", "text": "어제 살인 사건 뉴스 봤어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 타해·성폭력·죽음 낱말은 자살 신호가 아님"}
+{"id": "s-131", "text": "약 다 털어 먹었어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-132", "text": "약을 다 털어 넣었어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-133", "text": "유서 써 놨어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-134", "text": "유서를 썼어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-135", "text": "유서 썼어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-136", "text": "유서 쓰고 있어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-137", "text": "유서\n써 놨어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-138", "text": "유서를  썼어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-139", "text": "방금 손목 그었어 피가 나", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-140", "text": "손목을 그었어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-141", "text": "지금 옥상이야 뛰어내릴 거야", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-142", "text": "지금 죽으려고", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-143", "text": "뛰어내릴 거야", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-144", "text": "지금 다리 난간이야 뛰어내릴 거야", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-145", "text": "버스에서 뛰어내릴 뻔했어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-146", "text": "집에 있는 약 다 먹었어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-147", "text": "감기약 다 먹었어", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-148", "text": "다들 안녕 이게 마지막 인사야", "label": "emergency", "source": "rule-test", "note": "규칙 테스트: 비상으로 잡는 말"}
+{"id": "s-149", "text": "혼자 살아요", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-150", "text": "혼자 해 봤어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-151", "text": "그 여자 살아 있어?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-152", "text": "남자 해라", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-153", "text": "과자 살 거야", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-154", "text": "의자 살까", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-155", "text": "기자 해임", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-156", "text": "보자 해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-157", "text": "자 살자", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-158", "text": "혼자살아요", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-159", "text": "혼자해봤어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-160", "text": "여자살아있어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-161", "text": "과자살거야", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-162", "text": "피자살래?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-163", "text": "나중에 문자해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-164", "text": "문자해줘", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-165", "text": "투자해서 돈 벌었어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-166", "text": "같이 가자해서 갔어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-167", "text": "하자해도 안 해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-168", "text": "먹자해놓고", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-169", "text": "쉬자해가지고", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-170", "text": "혼자살기 힘들어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-171", "text": "부자 해먹네", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-172", "text": "게임에서 자살골 넣었어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-173", "text": "투신사 다녀", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-174", "text": "전투신 멋있다", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-175", "text": "웃겨 죽겠네", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-176", "text": "오늘 너무 힘들었어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-177", "text": "우울해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-178", "text": "죽이는 맛이야", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-179", "text": "게임에서 다 죽였어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-180", "text": "너 몇 살인데?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-181", "text": "몇살인지 몰라", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-182", "text": "20살인데요", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-183", "text": "스무 살인 내 동생", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-184", "text": "다섯 살인 조카", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-185", "text": "삼십 살인데", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-186", "text": "몸살인가 봐", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-187", "text": "엄살인 줄 알았어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-188", "text": "햇살인데 따뜻해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-189", "text": "살인적인 더위다", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-190", "text": "그 배우 살인 미소", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-191", "text": "몸살해서 쉬었어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-192", "text": "나 스물셋 살인데 넌 몇 살이야?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-193", "text": "저 스물둘 살인데요", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-194", "text": "스물하나 살인데", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-195", "text": "올해 삼십오 살인데 아직 취준생", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-196", "text": "우리 할머니 구십구 살인데", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-197", "text": "저는 올해로 서른넷 살인 직장인", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-198", "text": "스무  살인데", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-199", "text": "스무\n살인데", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-200", "text": "20 살인데", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-201", "text": "오늘 살인 더위래", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-202", "text": "요즘 살인 스케줄이야", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-203", "text": "그 말은 무시해도 돼", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-204", "text": "표시해 줘", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-205", "text": "회사망했어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-206", "text": "농사망쳤어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-207", "text": "한강간다", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-208", "text": "시 해석 숙제", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-209", "text": "오늘 저녁 삼겹살해먹자", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-210", "text": "목살해 먹을까 삼겹살 먹을까", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-211", "text": "닭가슴살해동 해놨어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-212", "text": "닭가슴살육수 끓였어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-213", "text": "회의 3시해요?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-214", "text": "우리 2시해도 돼?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-215", "text": "약속 7시해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-216", "text": "몇 시해?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-217", "text": "몇  시해?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-218", "text": "두 시해도 돼?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-219", "text": "열두 시해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-220", "text": "말투신경쓰여", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-221", "text": "자해보자", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-222", "text": "혼자살을빼고있어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-223", "text": "혼자해를봤어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-224", "text": "투자해가며 배웠어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-225", "text": "씨발", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-226", "text": "개새끼야", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-227", "text": "죽어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-228", "text": "뒤져라", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-229", "text": "죽을래?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-230", "text": "죽여버린다", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-231", "text": "그냥 죽어버려", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-232", "text": "확 죽여버릴까", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-233", "text": "죽이고 싶다 진짜", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-234", "text": "죽고 싶냐", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-235", "text": "야 죽고 싶냐?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-236", "text": "너 죽고 싶어?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-237", "text": "죽고 싶니?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-238", "text": "시발 죽고싶냐", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-239", "text": "죽고 싶어서 환장했냐", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-240", "text": "너 살기 싫냐?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-241", "text": "넌 진짜 죽고 싶구나", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-242", "text": "자살해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-243", "text": "자살해라", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-244", "text": "자살해!", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-245", "text": "자살해ㅋㅋ", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-246", "text": "자살이나 해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-247", "text": "자살이나 해라", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-248", "text": "자살이나 해 그냥", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-249", "text": "가서 자해나 해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-250", "text": "자해나 해라", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-251", "text": "자살하세요", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-252", "text": "자살해버려", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-253", "text": "나가 자살해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-254", "text": "너나 자살해", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-255", "text": "그냥 자살해라 좀", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-256", "text": "자살해 버려", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-257", "text": "자살해 병신아", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-258", "text": "죽고 싶어 환장했냐", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-259", "text": "자살해라. 꺼져", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-260", "text": "너 사망하고 싶냐?", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-261", "text": "살해당하고 싶냐", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-262", "text": "너 그냥 사망했으면 좋겠어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-263", "text": "니가 살해당했으면 좋겠어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-264", "text": "그 새끼 사망했으면 좋겠다", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-265", "text": "수영장 다이빙대에서 뛰어내릴 거야", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-266", "text": "내일 번지점프대에서 뛰어내릴 거야", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-267", "text": "낙하산 메고 뛰어내릴 때 진짜 무서웠어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-268", "text": "지각해서 사유서 써야 돼", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-269", "text": "결석 사유서를 써서 냈어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-270", "text": "사유서 썼어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}
+{"id": "s-271", "text": "이유서를 썼어", "label": "none", "source": "rule-test", "note": "규칙 테스트: 위험처럼 보이지만 아님"}

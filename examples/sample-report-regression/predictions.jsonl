@@ -1,0 +1,271 @@
+{"id": "s-001", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-002", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-phrase-01", "matched": "약을다먹었"}]}
+{"id": "s-003", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-004", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-005", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [0, 2]}]}
+{"id": "s-006", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-007", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [2, 4]}]}
+{"id": "s-008", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-009", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-10", "matched": "살기싫"}]}
+{"id": "s-010", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-08", "matched": "사라지고싶"}, {"pattern_id": "ex-dg-01", "matched": "사라지고 싶", "span": [0, 6]}]}
+{"id": "s-011", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-13", "matched": "끝내고싶"}]}
+{"id": "s-012", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-14", "matched": "목숨을끊"}]}
+{"id": "s-013", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-15", "matched": "목숨끊"}]}
+{"id": "s-014", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-17", "matched": "극단적선택"}]}
+{"id": "s-015", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-18", "matched": "극단적인선택"}]}
+{"id": "s-016", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-16", "matched": "스스로목숨"}]}
+{"id": "s-017", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "투신", "span": [0, 2]}]}
+{"id": "s-018", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "투신", "span": [0, 2]}]}
+{"id": "s-019", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [1, 3]}]}
+{"id": "s-020", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [1, 3]}]}
+{"id": "s-021", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [2, 4]}]}
+{"id": "s-022", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [2, 4]}]}
+{"id": "s-023", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [3, 5]}]}
+{"id": "s-024", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [0, 2]}]}
+{"id": "s-025", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [2, 4]}]}
+{"id": "s-026", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [2, 4]}]}
+{"id": "s-027", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [2, 4]}]}
+{"id": "s-028", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [3, 5]}]}
+{"id": "s-029", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [2, 4]}]}
+{"id": "s-030", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "투신", "span": [2, 4]}]}
+{"id": "s-031", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "투신", "span": [1, 3]}]}
+{"id": "s-032", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-033", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-034", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-035", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-036", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-037", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-038", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-039", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-040", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-041", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-042", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-043", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [5, 7]}]}
+{"id": "s-044", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-045", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [7, 9]}]}
+{"id": "s-046", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [5, 7]}]}
+{"id": "s-047", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [3, 5]}]}
+{"id": "s-048", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [5, 7]}]}
+{"id": "s-049", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [5, 7]}]}
+{"id": "s-050", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [0, 2]}]}
+{"id": "s-051", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [6, 8]}]}
+{"id": "s-052", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [4, 6]}]}
+{"id": "s-053", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [8, 10]}]}
+{"id": "s-054", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [8, 10]}]}
+{"id": "s-055", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [8, 10]}]}
+{"id": "s-056", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-057", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [4, 6]}]}
+{"id": "s-058", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-059", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-060", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [3, 5]}]}
+{"id": "s-061", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-062", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [2, 4]}]}
+{"id": "s-063", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [0, 2]}]}
+{"id": "s-064", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-065", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-066", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [3, 5]}]}
+{"id": "s-067", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-068", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자해", "span": [0, 2]}]}
+{"id": "s-069", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [14, 16]}]}
+{"id": "s-070", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [14, 16]}]}
+{"id": "s-071", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [17, 19]}]}
+{"id": "s-072", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [7, 9]}]}
+{"id": "s-073", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [7, 9]}]}
+{"id": "s-074", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [6, 8]}]}
+{"id": "s-075", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [4, 6]}]}
+{"id": "s-076", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [1, 3]}]}
+{"id": "s-077", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [0, 2]}]}
+{"id": "s-078", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [4, 6]}]}
+{"id": "s-079", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-080", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-081", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-10", "matched": "살기싫"}]}
+{"id": "s-082", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-083", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-084", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-085", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-086", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-087", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-088", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-089", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-090", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-10", "matched": "살기싫"}]}
+{"id": "s-091", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-092", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-093", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-094", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-095", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-096", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-097", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-098", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-10", "matched": "살기싫"}]}
+{"id": "s-099", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-100", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-10", "matched": "살기싫"}]}
+{"id": "s-101", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-word", "matched": "자살", "span": [7, 9]}]}
+{"id": "s-102", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-01", "matched": "죽고싶"}]}
+{"id": "s-103", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-02", "matched": "사망하고싶"}]}
+{"id": "s-104", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-02", "matched": "사망하고싶"}]}
+{"id": "s-105", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-03", "matched": "살해당하고싶"}]}
+{"id": "s-106", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-04", "matched": "날살해했으면"}]}
+{"id": "s-107", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "dg-phrase-07", "matched": "나를살해해줬으면"}]}
+{"id": "s-108", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-109", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-110", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-111", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-112", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-113", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-114", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-115", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-116", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-117", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-118", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-119", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-120", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-121", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-122", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-123", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-124", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-125", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-126", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-127", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-128", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-129", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-130", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-131", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-phrase-04", "matched": "약다털어"}]}
+{"id": "s-132", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-phrase-03", "matched": "약을다털어"}, {"pattern_id": "ex-em-01", "matched": "약을 다 털어 넣", "span": [0, 9]}]}
+{"id": "s-133", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-will", "matched": "유서 써", "span": [0, 4]}]}
+{"id": "s-134", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-will", "matched": "유서를 썼", "span": [0, 5]}]}
+{"id": "s-135", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-will", "matched": "유서 썼", "span": [0, 4]}]}
+{"id": "s-136", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-will", "matched": "유서 쓰", "span": [0, 4]}]}
+{"id": "s-137", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-will", "matched": "유서 써", "span": [0, 4]}]}
+{"id": "s-138", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-will", "matched": "유서를 썼", "span": [0, 5]}]}
+{"id": "s-139", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-phrase-09", "matched": "손목그었"}]}
+{"id": "s-140", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-phrase-08", "matched": "손목을그었"}]}
+{"id": "s-141", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-jump", "matched": "뛰어내릴", "span": [8, 12]}]}
+{"id": "s-142", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-phrase-10", "matched": "지금죽으려"}]}
+{"id": "s-143", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-jump", "matched": "뛰어내릴", "span": [0, 4]}]}
+{"id": "s-144", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-jump", "matched": "뛰어내릴", "span": [11, 15]}]}
+{"id": "s-145", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-jump", "matched": "뛰어내릴", "span": [5, 9]}]}
+{"id": "s-146", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-phrase-02", "matched": "약다먹었"}]}
+{"id": "s-147", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-phrase-02", "matched": "약다먹었"}]}
+{"id": "s-148", "stage": "dict", "source_version": "0.3.0", "predicted": "risk", "matches": [{"pattern_id": "em-phrase-12", "matched": "마지막인사"}]}
+{"id": "s-149", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-150", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-151", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-152", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-153", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-154", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-155", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-156", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-157", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-158", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-159", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-160", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-161", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-162", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-163", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-164", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-165", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-166", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-167", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-168", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-169", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-170", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-171", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-172", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-173", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-174", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-175", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-176", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-177", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-178", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-179", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-180", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-181", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-182", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-183", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-184", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-185", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-186", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-187", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-188", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-189", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-190", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-191", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-192", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-193", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-194", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-195", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-196", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-197", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-198", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-199", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-200", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-201", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-202", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-203", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-204", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-205", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-206", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-207", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-208", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-209", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-210", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-211", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-212", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-213", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-214", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-215", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-216", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-217", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-218", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-219", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-220", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-221", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-222", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-223", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-224", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-225", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-226", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-227", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-228", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-229", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-230", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-231", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-232", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-233", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-234", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-235", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-236", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-237", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-238", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-239", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-240", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-241", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-242", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-243", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-244", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-245", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-246", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-247", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-248", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-249", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-250", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-251", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-252", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-253", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-254", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-255", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-256", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-257", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-258", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-259", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-260", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-261", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-262", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-263", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-264", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-265", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-266", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-267", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-268", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-269", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-270", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}
+{"id": "s-271", "stage": "dict", "source_version": "0.3.0", "predicted": "none", "matches": []}

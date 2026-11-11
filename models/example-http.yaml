@@ -1,0 +1,16 @@
+# HTTP 모델 어댑터 설정 예시.
+# 모델 서버는 POST {"text": "..."} 를 받아 JSON 객체를 돌려줘야 한다.
+# 응답 최상위에 depression/anxiety/else가 있으면 그대로 쓰고,
+# 구조가 다르면 response_map으로 경로(점 표기)를 지정한다.
+adapter: http
+http:
+  url: http://localhost:8000/predict
+  timeout: 10
+  version: my-model-1.0
+  # api_key_env: MY_MODEL_API_KEY   # 지정하면 Authorization: Bearer <env 값>
+  # response_map:
+  #   depression: result.depression
+  #   anxiety: result.anxiety
+thresholds:
+  depression: 0.5
+  anxiety: 0.5

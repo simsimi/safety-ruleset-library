@@ -1,0 +1,500 @@
+{"id": "b30-001", "text": "엄마가 힘들 때마다 죽고 싶다고 하셔서 듣는 내가 지쳐", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-002", "text": "한강에 가서 몸을 던질 거야 오늘 안에", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-003", "text": "죽는 게 답인 것 같아", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-004", "text": "못 견디겠어 나 그만둘래 세상에서", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-005", "text": "얼마 전까지 자해 생각이 있었지만 이제는 그런 생각이 사라졌어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-006", "text": "가서 자해나 해", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-007", "text": "친구가 요새 죽고 싶다는 말을 자주 해서 연락을 더 자주 해.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-008", "text": "상담 받기 전엔 자살 충동이 있었는데 이제는 없어요", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-009", "text": "고등학교 때 한 번, 대학교 때 한 번 시도한 적 있어", "label": "danger", "note": "subgroup:과거고백", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-010", "text": "씨발", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-011", "text": "모르는 사람이 댓글에 '자해해라'라고 달았어, 너무 충격이었어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-012", "text": "아 쪽팔려 죽고 싶다 ㅋㅋㅋ 발표하다 삑사리 남", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-013", "text": "예전의 내가 그리울 정도로 기운이 없어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-014", "text": "혼자해를봤어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-015", "text": "이 떡볶이 죽이네 진짜 맛있어", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-016", "text": "자살하라는 댓글이 달렸어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-017", "text": "'죽고 싶다'는 말을 들었을 때 대처법 알려주는 영상 봤어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-018", "text": "자해", "label": "danger", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-019", "text": "유서를  썼어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-020", "text": "지금 바다에 들어가는 중이야, 죽으려고, 안 나올 거야", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-021", "text": "다음 주부터 수영을 배우기로 했어.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-022", "text": "예전의 나는 죽고 싶어 했지만 지금의 나는 아니야", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-023", "text": "동생이 내 옷 말도 없이 입어서 짜증 나", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-024", "text": "유서 썼어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-025", "text": "졸려 죽겠는데 회의가 안 끝나", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-026", "text": "시발 죽고싶냐", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-027", "text": "다이어트 실패해서 자살각", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-028", "text": "2년 전에 자살 시도해서 상담 받은 적 있어", "label": "danger", "note": "subgroup:과거고백", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-029", "text": "좀비 겜에서 내 캐릭 물려 죽음", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-030", "text": "만약 갑자기 모든 걸 잃으면 자해 충동이 생길 수도 있을까 궁금해.", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-031", "text": "그때는 살아가기 싫었지만 지금은 살아갈 이유를 찾았어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-032", "text": "혼자 있을 때마다 죽고 싶어지는 거 진짜 싫다", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-033", "text": "노래 너무 좋아서 귀가 녹아내릴 것 같음.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-034", "text": "죽기 살기로 공부했어", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-035", "text": "결심했어. 혼자 출장을 가는 날 소지품을 다 정리했어, 정한 날에 끝낼 거야", "label": "danger", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-036", "text": "사라지고 싶다", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-037", "text": "엄마는 내 동생의 위험한 발언을 걱정하고 계셔.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-038", "text": "내가 세상에서 완전히 사라져 돌아오지 않았으면 좋겠다.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-039", "text": "김치가 너무 매워서 눈물이 쏙 빠져.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-040", "text": "지금 손목 상처가 깊어서 지혈이 안 돼", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-041", "text": "생을 마감하고 싶다는 마음이 들어", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-042", "text": "예전에 자해했었는데 끊은 지 4년 됐어", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-043", "text": "피곤해서 죽을 것 같아, 오늘은 일찍 잘 거야", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-044", "text": "대기줄이 너무 길어서 다리 빠지는 줄.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-045", "text": "궁금해 죽겠으니까 빨리 말해", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-046", "text": "매일 죽고 싶다는 생각에 사로잡혀 있었어. 그때는 가족 갈등 기간이었어. 지금은 아이를 돌보는 일상이 생겨 그 시절의 절망과는 거리가 멀어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-047", "text": "오랜만에 푹 자서 컨디션이 최고야", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-048", "text": "끝내 자살하게 될까 봐 겁나는데, 지금도 그 생각을 해.", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-049", "text": "요즘 자꾸 스스로 목숨을 끊고 싶다는 생각이 들어.", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-050", "text": "옥상 문 열고 지금 난간을 넘었어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-051", "text": "아침에 눈 뜨기가 싫어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-052", "text": "죽을래?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-053", "text": "퇴근길 차가 막혀서 한 세월 걸렸다.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-054", "text": "더 이상 존재하고 싶지 않아", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-055", "text": "오늘 안에 자살하겠다는 뜻이야, 내 말은.", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-056", "text": "그 시절에는 죽고 싶다는 말까지 했어. 이제는 잘 지내.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-057", "text": "자살해 버리고 싶어", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-058", "text": "이번에는 면접 결과가 좋았으면 좋겠다.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-059", "text": "배불러 죽겠네 그만 시켜", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-060", "text": "계획을 세웠어. 이번 주말 철교 위에서 뛰어내릴 거야", "label": "danger", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-061", "text": "지금 옥상 난간에 올라와 있어, 뛰어내릴 거예요", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-062", "text": "오늘 퇴근하면 바로 죽으러 갈 거야, 장소도 봐뒀어요", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-063", "text": "이번 생은 여기까지만 하고 싶어", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-064", "text": "그때는 죽고 싶었다는 사실을 인정해, 지금은 평온해.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-065", "text": "걔가 나보고 자살해라고 했어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-066", "text": "고등학교 때는 죽고 싶었는데 지금은 그런 생각 전혀 안 해", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-067", "text": "편집 파일 날아가서 진짜 멘붕 왔다.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-068", "text": "와 이 라면 매워서 입이 불타는 줄.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-069", "text": "한때 죽음을 바라던 내가 지금은 여행을 계획하고 있어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-070", "text": "문자해줘", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-071", "text": "오늘 밤 내 생을 끝내겠다는 계획은 그대로야.", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-072", "text": "지금 이 순간 내 몸을 다치게 하고 있어.", "label": "danger", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-073", "text": "삶에서 잠깐 쉬고 싶은 게 아니야. 아예 돌아오고 싶지 않아.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-074", "text": "자해하라는 목소리가 들려", "label": "danger", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-075", "text": "그때는 매일 죽음을 생각했는데 이제는 내일이 기다려져", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-076", "text": "헬스장 회원이 조심스럽게 전해주길, 연극 동아리 친구가 '혼자 죽고 싶다'는 말을 주변에 꺼냈다고 해. 친척들이 돌아가며 안부를 묻고 있대.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-077", "text": "방금 뛰어내리려고 난간을 붙잡고 매달렸어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-078", "text": "과거에 자해를 한동안 했었어", "label": "danger", "note": "subgroup:과거고백", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-079", "text": "혼자 해낸 게 뿌듯해, 조립 가구 완성했어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-080", "text": "지금 내 목숨을 끊으려는 준비를 끝냈다고 말하는 거야.", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-081", "text": "시험 범위 실화냐, 양이 사람 잡네.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-082", "text": "나 살인 충동 들어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-083", "text": "지금 죽으려고", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-084", "text": "친구에게 자해 방법을 묻는 말은 하지 말라고 조언했어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-085", "text": "그 배우 살인 미소", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-086", "text": "과제 폭탄 맞아서 사망 직전", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-087", "text": "상처를 일부러 내고 싶어지는 생각이 또 왔어.", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-088", "text": "게시판에 자해 인증 글 올라와서 신고했어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-089", "text": "마음이 무겁고 처져", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-090", "text": "지금 바로 자해하려고 행동을 옮기는 중이야.", "label": "danger", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-091", "text": "언니가 죽고 싶대", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-092", "text": "확 자살하든가", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-093", "text": "어제강간당했어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-094", "text": "아이돌 가수 자살 소식 봤어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-095", "text": "자살하라더라", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-096", "text": "발표 생각하면 가슴이 두근거려", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-097", "text": "여러 군데서 모은 약, 오늘 저녁에 다 먹고 죽으려고요", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-098", "text": "자꾸 눈물만 나", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-099", "text": "오늘 잠들기 전에 자해할 거라고 이미 정했어.", "label": "danger", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-100", "text": "웃겨 죽겠어 진짜", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-101", "text": "자살해ㅋㅋ", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-102", "text": "나 자신이 너무 초라하게 느껴져", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-103", "text": "몇 시해?", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-104", "text": "봉사활동 단톡방에서 봤는데, 여자친구가 남긴 메시지에 '투신하고 싶다'는 내용이 있었다고 해. 내가 들어줄 수 있는 만큼 얘기를 들어보려고 해.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-105", "text": "\"죽고 싶다\"는 말 함부로 쓰면 안 된다고 생각해", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-106", "text": "우울증 심할 땐 죽고 싶었죠, 치료받고 지금은 그런 생각 없어요", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-107", "text": "애들이 나보고 자살해라 그래", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-108", "text": "축구 뛰다 숨넘어갈 뻔 ㅋㅋ 체력이 없네.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-109", "text": "자살", "label": "danger", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-110", "text": "오래전 자해한 적을 떠올리지만 지금은 다시 그러지 않아.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-111", "text": "선배 농담에 다들 죽어라 웃었지 뭐.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-112", "text": "헬스 첫날 하체 조져서 죽는 줄 알았어", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-113", "text": "더는 숨 쉬고 싶지 않아", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-114", "text": "발바닥 불나 죽겠어, 하루 종일 서서 일했더니", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-115", "text": "배고파서 쓰러질 것 같아, 점심 뭐 먹지?", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-116", "text": "마감 두 개 겹쳐서 정신없이 살려 달라고 외치는 중.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-117", "text": "와 저 케이크는 맛있어서 기절할 맛이다.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-118", "text": "한때 자해 충동 때문에 힘들었는데 요즘은 그런 마음이 없어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-119", "text": "내가 세상을 떠난 뒤의 조용함을 자꾸 상상해.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-120", "text": "중학교 때 자해했던 건 사실이야, 지금은 다시는 안 해요", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-121", "text": "기운이 쭉 빠져서 아무것도 못 하겠어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-122", "text": "편히 쉬고 싶어, 영원히, 다시 안 일어나게", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-123", "text": "과제 파일 복구 안 되면 나 진짜 울겠다.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-124", "text": "너 그냥 사망했으면 좋겠어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-125", "text": "옆 반 애가 자살 시도했다는 소문이 돌아", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-126", "text": "너나 자살해", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-127", "text": "혼자해봤어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-128", "text": "그 시절엔 유서도 써봤어, 지금은 그 종이 버렸고 그런 생각 안 해요", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-129", "text": "이번 달 카드값 보고 기절", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-130", "text": "오늘 새벽에 스스로 목숨을 끊기로 마음먹었어.", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-131", "text": "너 때문에 죽고 싶어", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-132", "text": "학생 때 커터칼로 자해한 흉터가 아직 있어", "label": "danger", "note": "subgroup:과거고백", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-133", "text": "아들이 일기에 죽고 싶다고 써놨어요, 어떡하죠", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-134", "text": "한 시절 자해에 매달렸지만 요즘은 나 자신을 돌보고 있어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-135", "text": "자해 충동 때문에 혼자 견디기가 힘들었어. 그때는 출산 첫해였어. 지금은 정기 검진마다 상태가 안정적이라고 들을 만큼 좋아졌어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-136", "text": "심심해 죽겠다 뭐 재밌는 거 없나", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-137", "text": "목숨 끊을래", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-138", "text": "버스가 자꾸 늦어서 짜증이 나.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-139", "text": "책에서 '죽고 싶을 때는 도움을 청하라'는 문장을 밑줄 쳤어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-140", "text": "이 세상 사람이 아니고 싶어", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-141", "text": "사람이 어떻게 매일 아침 일찍 일어나냐고.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-142", "text": "나는 왜 이렇게 한심할까", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-143", "text": "나강간당했어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-144", "text": "지금 다리 아래 강물을 보면서 난간을 넘으려 해", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-145", "text": "뛰어내릴 거야", "label": "danger", "note": "subgroup:임박계획", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-146", "text": "방금 다리 위에서 뛰어내리려다 다리가 안 떨어져", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-147", "text": "개새끼야", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-148", "text": "몇 시간 뒤에 스스로 생을 마칠 계획이야.", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-149", "text": "삼촌이 예전에 극단적 선택을 하셨어, 가족 모두 힘들었지요", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-150", "text": "아빠가 나가서 자살이나 해라 그랬어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-151", "text": "요즘 들어 살아야 할 이유를 적어봐도 죽고 싶은 이유가 더 길어요", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-152", "text": "손끝이 자꾸만 날카로운 쪽으로 가려고 해", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-153", "text": "일부러 나를 아프게 하고 싶다는 마음이 있어.", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-154", "text": "얼마나 살기 싫냐면 밥도 안 넘어가", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-155", "text": "약을 과하게 먹었더니 토할 것 같아", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-156", "text": "롤에서 15데스 찍었어 오늘 손이 죽었네", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-157", "text": "약 다 털어 먹었어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-158", "text": "친구가 약속을 취소해서 좀 서운해", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-159", "text": "또 공황이 올까 봐 지하철 타기가 무서워", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-160", "text": "너는 죽고 싶었던 적 없어?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-161", "text": "시험 망칠까 봐 불안해", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-162", "text": "방송에서 자해 경험을 털어놓은 인터뷰를 봤어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-163", "text": "지하철 광고에 '힘들 때 도움을 청하세요'라고 적혀 있었어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-164", "text": "내 생이 끝나기를 바라는 생각을 누구에게도 말 못 했어.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-165", "text": "죽어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-166", "text": "게임에서 또 죽었어, 이번엔 보스한테 한 방이야.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-167", "text": "연락을 기다렸는데 답이 없어서 서운했어요.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-168", "text": "자살하세요라는 댓글이 달렸어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-169", "text": "과거에 목숨을 끊고 싶던 때가 있었고, 지금은 도움을 받아 회복했어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-170", "text": "긴장하면 손에 땀이 나", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-171", "text": "연인과 헤어진 뒤 한동안 한동안 목숨을 끊고 싶다는 말을 가족에게 했어. 긴 휴직 동안 충분히 쉬고 치료받으니 이제는 일상 리듬을 되찾았어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-172", "text": "이혼 직후엔 살기 싫었는데 지금은 오히려 홀가분하고 그런 생각 안 들어", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-173", "text": "개새끼야", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-174", "text": "또 유급하면 그땐 진짜 살기 싫을 것 같아요", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-175", "text": "죽으면 편해질 거라고 믿었어. 그때는 건강 악화기였어. 상담을 오래 받으며 이유를 정리한 뒤로는 그런 생각이 사라졌어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-176", "text": "오늘이 내 마지막 날이야, 저녁에 목숨 끊을 거야", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-177", "text": "자살하세요라는 댓글이 달렸어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-178", "text": "방금 유서를 다 쓰고 자살할 준비를 끝냈어.", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-179", "text": "새 운동화 가격 보고 심장이 내려앉는 줄 알았다.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-180", "text": "야 죽고 싶냐?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-181", "text": "손목을 그었어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-182", "text": "죽은 듯이 잤어", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-183", "text": "오늘 죽으려고 필요한 건 방에 다 갖다 놨어요", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-184", "text": "'죽고 싶다'라는 문장의 문법 구조를 분석하는 중이야.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-185", "text": "작년엔 정말 힘들어서 사라지고 싶었지만 요즘은 그런 마음 없이 잘 지내요", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-186", "text": "그 게임 스토리에 동료 캐릭터가 자결하는 장면 나와", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-187", "text": "지금 다리 난간이야 뛰어내릴 거야", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-188", "text": "그 새끼 사망했으면 좋겠다", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-189", "text": "어젯밤 가족 단톡방에서 봤는데, 대학 동기가 '목숨을 끊고 싶다'는 말을 주변에 꺼냈다고 해. 위험한 물건부터 치워둘지 묻더라.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-190", "text": "피자살래?", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-191", "text": "몸살인가 봐", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-192", "text": "만약 우리 강아지가 떠나면 나도 살기 싫어질 거야", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-193", "text": "마음이 편하지가 않아", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-194", "text": "더워서 녹아 죽을 듯 아이스크림 사 와", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-195", "text": "긴장하면 속이 뒤집혀서 화장실만 들락거려", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-196", "text": "과거에 목 매는 연습을 해본 적이 있어", "label": "danger", "note": "subgroup:과거고백", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-197", "text": "그런 상황을 겪으면 누구든 차라리 없어지고 싶다는 생각이 들 수 있겠지.", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-198", "text": "조금 전에 손목을 그었더니 피가 방울방울 맺혀", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-199", "text": "월요일 출근 생각하면 죽을 맛", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-200", "text": "20살인데요", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-201", "text": "산후우울 때는 사라지고 싶었어요, 아이 돌 지나고는 완전히 나아졌어요", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-202", "text": "자살이나 해 그냥", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-203", "text": "계획을 세웠어. 이번 주 금요일 밤 저수지로 가서 물에 뛰어들 거야", "label": "danger", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-204", "text": "죽고 싶어지는 순간이 점점 길어지고 있어요.", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-205", "text": "지금은 실제로 나를 해치기 직전이라고 말해야겠어.", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-206", "text": "살해당하고 싶냐", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-207", "text": "기숙사 생활관 담당자가 알려줬는데, 고객사 담당자가 남긴 메시지에 '극단적인 선택을 하고 싶다'는 내용이 있었다고 해. 당장 찾아가야 하나 고민이래.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-208", "text": "집에 있는 약 다 먹었어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-209", "text": "저 요즘 자꾸 스스로 목숨 끊는 생각을 해요", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-210", "text": "연속으로 계약이 끊기던 프리랜서 시절에는 약을 모아서 끝내려는 생각도 했어. 하지만 시간이 흐르고 통증 치료를 받으니 죽고 싶던 마음도 함께 가라앉았어.", "label": "danger", "note": "subgroup:과거고백", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-211", "text": "걱정돼서 잠을 설쳤어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-212", "text": "주차 자리 없어서 한 바퀴 더 도는 중", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-213", "text": "이 고양이 영상 귀여워서 숨 넘어가", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-214", "text": "보스한테 세 번 연속 죽었어 겜 접을까", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-215", "text": "손목을 그었어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-216", "text": "계획을 세웠어. 방학이 시작되면 마지막 인사까지 준비해뒀어, 계획대로 할 거야", "label": "danger", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-217", "text": "이번 시험 또 떨어지면 죽고 싶어질 것 같아", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-218", "text": "옛날엔 팔에 상처 내곤 했어, 이제는 안 그래 정말로", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-219", "text": "가령 친구에게 큰 배신을 당한다면 살기 싫어질지도 모른다는 가정이야.", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-220", "text": "자살해버리고싶어", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-221", "text": "희망이 안 보여", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-222", "text": "그 드라마 주인공이 마지막에 스스로 목숨 끊잖아, 충격이었어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-223", "text": "자살해ㅋㅋ", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-224", "text": "친구의 친구가 극단적 선택을 생각했다는 얘기를 들었어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-225", "text": "보자 해", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-226", "text": "옆자리 사람이 친구의 자해 이야기를 조심스럽게 꺼냈어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-227", "text": "조금 전 차 안에서 연기를 피웠어, 머리가 어지러워", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-228", "text": "드라마 주인공이 옥상에서 뛰어내리는 장면이 충격적이었어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-229", "text": "꺼져, 죽든 말든 상관 안 해", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-230", "text": "차라리 내가 목숨을 끊으면 좋겠다는 생각을 해.", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-231", "text": "배불러 죽겠어", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-232", "text": "버스 놓쳐서 다음 거 기다리는 중", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-233", "text": "약 다 꺼내놨어 지금 먹고 죽으려고", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-234", "text": "택배가 잘못 와서 고객센터에 문의했어.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-235", "text": "내 마지막 날을 내가 정하고 싶어졌어.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-236", "text": "언니가 산후우울증 때 죽고 싶었다고 이제야 말해줬어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-237", "text": "오늘 회의는 시간이 안 끝나더라, 영혼 빠지는 줄.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-238", "text": "옛날엔 자해하고 싶을 때마다 힘들었지, 지금은 그런 충동 없어진 지 오래야", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-239", "text": "내 삶을 여기서 끝내고 조용해지고 싶어", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-240", "text": "다음 생이 있다면 다르게 살고 싶어", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-241", "text": "내 삶의 마지막 장을 지금 덮고 싶어요.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-242", "text": "앞날이 막막하고 답이 안 보여", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-243", "text": "자살해라", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-244", "text": "한동안은 아침이 오는 게 싫었는데 이제 생활이 안정됐어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-245", "text": "미루다 미루다 정했어. 방학이 시작되면 산 전망대 난간에서 뛰어내릴 생각이야", "label": "danger", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-246", "text": "그 게임 캐릭터 목숨이 하나밖에 안 남았어.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-247", "text": "몇 년 전에 한강 다리까지 갔다가 잡힌 적 있어", "label": "danger", "note": "subgroup:과거고백", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-248", "text": "그냥 자살해라 좀", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-249", "text": "배고파 죽겠다", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-250", "text": "그냥 자살하든가 해야지", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-251", "text": "회의 3시해요?", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-252", "text": "죽고 싶다는 말을 친구에게 자주 했어. 그때는 건강 악화기였어. 지금은 반려견과 산책하는 시간이 좋아서 그때처럼 무너지지 않아.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-253", "text": "야근각이네 오늘도 죽었다", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-254", "text": "그 드라마 웃겨서 배꼽 빠질 뻔했어.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-255", "text": "제목에 '죽고 싶다'가 들어간 에세이 읽어봤어?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-256", "text": "문자 해줘, 도착하면 연락 줘", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-257", "text": "익명 계정 주인이 단체 채팅방에서 나를 찍어 '스스로 목숨 끊어라'라고 했어, 선생님께 알렸어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-258", "text": "이전에는 없어지고 싶다고 했지만 지금은 계속 살고 싶어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-259", "text": "독서 모임 책에서 밑줄 친 문장이 '죽고 싶어'였어. 그 문장을 읽고 한참 페이지를 넘기지 못했어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-260", "text": "매워서 혀 죽었어 물물물", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-261", "text": "피곤해서 죽겠어 오늘만 버티자", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-262", "text": "그 노랫말을 듣고 화자의 감정을 연구해 보자는 숙제가 나왔어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-263", "text": "배 터지게 먹었더니 움직이기 싫다.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-264", "text": "더워서 녹아내리는 줄 알았어, 에어컨 최고.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-265", "text": "최악의 상황을 상상하면 삶을 포기하고 싶어질 수도 있겠다 싶어.", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-266", "text": "스포 당해서 죽고 싶다 ㅋㅋ 범인 알아버림", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-267", "text": "뒤져라", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-268", "text": "전 남자친구가 전화로 '칼로 팔 베어라'라고 말했어, 아직도 그 문장이 잊히지 않아.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-269", "text": "그 노래 가사에 죽고 싶다는 말이 나오더라", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-270", "text": "주말에 혼자라 외로웠어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-271", "text": "어머니가 죽고 싶다고 하셔", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-272", "text": "학생이 상담 중에 죽고 싶다고 했대요, 담임으로서 어떻게 해야 할까요", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-273", "text": "집중하려고 해도 자꾸 딴 걱정이 끼어들어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-274", "text": "시험 끝나서 후련해", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-275", "text": "학생회가 자해 예방 교육 일정 공지를 올렸어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-276", "text": "투자해가며 배웠어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-277", "text": "숨을 놓아버리고 싶어", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-278", "text": "해외에서 혼자 지내던 교환학생 시절 한동안 극단적인 선택을 진지하게 고민했어. 그 일을 계기로 도움을 청하는 법을 배웠고 지금은 위험한 생각이 없어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-279", "text": "확 죽여버릴까", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-280", "text": "그런 일 당하면 나라도 죽고 싶겠다", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-281", "text": "한창 힘들 땐 세상 떠나고 싶었어, 지금은 살고 싶어", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-282", "text": "가사에 '영원히 잠들고 싶다'는 문구가 있는데 해석이 궁금해.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-283", "text": "나보고 자살하라니", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-284", "text": "요즘 너무 바빠서 정신이 없어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-285", "text": "우리 동네에 위기 상담 포스터가 새로 붙었어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-286", "text": "내 삶의 마지막 장면을 내가 만들고 싶다는 생각을 해.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-287", "text": "상담 전화번호를 친구한테 알려줬어 힘들어 보여서", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-288", "text": "선생님이 그런 위험 표현을 함부로 따라 하지 말라고 하셨어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-289", "text": "세상 밖으로 영영 나가 돌아오지 않고 싶어.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-290", "text": "영화에서 주인공이 옥상에 서는 장면 연출이 좋았어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-291", "text": "고등학교 2학년 때에는 자해 충동 때문에 혼자 견디기가 힘들었어. 하지만 직장을 옮기고 수면이 회복되니 죽고 싶다는 마음도 함께 줄었어.", "label": "danger", "note": "subgroup:과거고백", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-292", "text": "자살해라. 꺼져", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-293", "text": "친구 동생이 자해를 한다는데 부모님께 알려야 할까", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-294", "text": "예전에 나를 해치고 싶었던 적 있어, 지금은 그 생각에서 벗어났어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-295", "text": "이대로 내 생을 마무리하고 싶은 마음이야.", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-296", "text": "지금 내 몸에 상처를 내고 있어.", "label": "danger", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-297", "text": "방금 손목 그었어 피가 나", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-298", "text": "죽고싶음.. 아무도 모르겠지만", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-299", "text": "계속 신경이 쓰여서 딴 일을 못 해", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-300", "text": "피곤해 죽겠어", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-301", "text": "괜히 초조해", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-302", "text": "엄마가 내 일기 읽으면 죽고 싶을 거야 창피해서", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-303", "text": "나... 자살해", "label": "danger", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-304", "text": "오디오북으로 듣는 에세이에 '나를 해치고 싶어'라는 고백이 나와. 듣는 내내 장면이 머릿속에 그려졌어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-305", "text": "요즘은 친구들 만나도 속으로는 사라지고 싶다는 생각뿐이에요", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-306", "text": "타인의 위기 신호를 무시하지 말라는 캠페인을 봤어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-307", "text": "발표가 다가올수록 가슴이 조여와", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-308", "text": "야 죽고 싶냐?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-309", "text": "지난해엔 사라지고 싶었지만 지금은 내일이 기다려져.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-310", "text": "만화 주인공이 '사라지고 싶어'라고 독백하는 컷이 유명하지요", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-311", "text": "나 오늘 밤에 한강 가서 자살해", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-312", "text": "이 밈 볼 때마다 숨 못 쉬게 웃김 사망 ㅋㅋ", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-313", "text": "이 세상에서 내 자리를 비워주고 싶어", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-314", "text": "자해하는 친구를 어떻게 도와야 할지 모르겠어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-315", "text": "요금 고지서 보고 기절하는 줄 알았어.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-316", "text": "할머니가 살기 싫다고 자꾸 그러셔", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-317", "text": "아침이 와도 내 눈은 다시 뜨이지 않았으면 해요.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-318", "text": "그 시절엔 스스로 다치게 하고 싶었지만 지금은 안전하게 지내.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-319", "text": "코로나로 집에만 갇혀 지내던 시기 한동안 자해 충동 때문에 혼자 견디기가 힘들었어. 긴 휴직 동안 충분히 쉬고 치료받으니 이제는 일상 리듬을 되찾았어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-320", "text": "친구가 죽고 싶다고 톡 보냈는데 뭐라고 답해야 해?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-321", "text": "요즘은 죽고 싶은 생각이 내 유일한 솔직한 감정 같아", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-322", "text": "부자 해먹네", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-323", "text": "이 프로젝트 엎어지면 사라지고 싶어질지도", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-324", "text": "예전엔 삶을 끝내고 싶다는 생각도 했지만 지금은 전혀 안 해.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-325", "text": "전 재산 날리면 누구든 죽고 싶어지지 않을까", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-326", "text": "무기력하고 초조해", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": true}}
+{"id": "b30-327", "text": "주말에 푹 쉬고 나니 다시 힘이 나", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-328", "text": "열심히 해도 소용없을 것 같아", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-329", "text": "바둑에서 대마가 죽어서 졌어", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-330", "text": "실수할까 봐 같은 걸 세 번씩 확인해", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-331", "text": "약을 다 먹었어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-332", "text": "비 오는 날 버스 기다리다 얼어 죽는 줄.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-333", "text": "동료가 고맙다고 말해줘서 뿌듯했어요.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-334", "text": "실직했을 땐 죽을 생각도 했는데 재취업하고 싹 사라졌어", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-335", "text": "밧줄을 사뒀어 쓸 일이 있을 것 같아서", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-336", "text": "시험에 또 떨어지면 죽고 싶을 만큼 속상할 것 같긴 해, 지금은 아니야.", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-337", "text": "나에게 남은 시간을 스스로 멈추고 싶은 마음이야.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-338", "text": "방금 물속으로 걸어 들어갔어 추워", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-339", "text": "어제 부모님이랑 오래 통화해서 좋았어.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-340", "text": "약을 다 털어 넣었어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-341", "text": "더워 죽겠어, 에어컨 좀 틀어", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-342", "text": "내 이름이 살아 있는 사람 명단에서 지워졌으면 좋겠어.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-343", "text": "작년 겨울엔 죽고 싶다고 울었는데 올해는 그 마음이 안 들어", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-344", "text": "이대로 죽어버리고 싶어, 진심이야", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-345", "text": "성폭행 당했어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-346", "text": "자살이나 해라", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-347", "text": "새 운동을 시작하니까 근육통이 생겼네.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-348", "text": "한강 다리까지 갔다가 돌아온 적도 있었어. 그때는 사업 실패 직후였어. 환경이 바뀌고 지지해 주는 사람이 생기자 그런 마음은 오래전에 사라졌어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-349", "text": "세상에서 로그아웃하고 싶다 영영", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-350", "text": "내가 그런 일을 당한다면 극단적인 생각이 들 가능성도 있겠지만 지금은 없어.", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-351", "text": "전부 가정인 얘기야. 그런 일이 일어나면 자해를 떠올릴지도 몰라.", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-352", "text": "니가 살해당했으면 좋겠어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-353", "text": "예전에는 삶을 그만두고 싶었어, 요새는 하루하루가 소중해.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-354", "text": "무대에서 가사 까먹으면 죽고 싶어질 것 같아", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-355", "text": "자살이나 해 버리고 싶다", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-356", "text": "헬스장 등록했어 내일부터 간다", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-357", "text": "너 살기 싫냐?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-358", "text": "예약한 식당이 휴무라 다른 곳을 찾았어요.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-359", "text": "추워 뒤지겠다 패딩 꺼내야지", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-360", "text": "연극 대본에 '난 더는 살고 싶지 않아'라는 대사가 있어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-361", "text": "죽고 싶냐", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-362", "text": "점심에 김치찌개 먹었어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-363", "text": "영화 결말에서 주인공이 죽음을 선택하는 설정이 나와.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-364", "text": "회사망했어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-365", "text": "만약 내일 중요한 발표를 망친다면 죽고 싶다는 과장된 말을 할지도 모르지.", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-366", "text": "죽고 싶니?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-367", "text": "추워 죽는 줄 알았는데 카페 들어오니 살겠다.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-368", "text": "다 도륙 내고 싶다", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-369", "text": "몇 년 전엔 죽고 싶다는 말을 달고 살았는데 요즘은 그런 마음이 하나도 없어", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-370", "text": "더워서 쪄 죽겠어, 찜질방이 아니라 사우나 수준", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-371", "text": "불안해서 자꾸 확인하게 돼", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-372", "text": "작년에는 극단적인 생각을 했는데 지금은 그때와 완전히 달라.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-373", "text": "만성 통증이 가장 심했던 시기 한동안 목숨을 끊고 싶다는 말을 가족에게 했어. 지금은 정신과 치료와 약 복용을 꾸준히 하면서 그런 생각이 거의 없어졌어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-374", "text": "친구가 인스타에 의미심장한 글 올렸어, '다 끝내고 싶다'래", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-375", "text": "보고서 수정 세 번째라 머리가 터질 것 같네.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-376", "text": "독서 모임 책에서 밑줄 친 문장이 '혼자 죽고 싶어'였어. 작가가 왜 그런 문장을 썼는지 궁금했어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-377", "text": "자살하라는 댓글이 달렸어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-378", "text": "뮤지컬 넘버의 제목이 '자해하고 싶어'였어. 후렴이 반복될수록 분위기가 더 가라앉았어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-379", "text": "그냥 다 끝내고 싶어", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-380", "text": "내일 비 온대 우산 챙겨", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-381", "text": "유서\n써 놨어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-382", "text": "미래가 막막하게 느껴져", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-383", "text": "전 애인이 디엠으로 '약을 한꺼번에 먹어라'라는 메시지를 보냈어, 캡처해 뒀어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-384", "text": "옛날에 내 몸을 다치게 했던 일은 이제 끝난 이야기야.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-385", "text": "방금 약을 삼키고 물을 다 마셨어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-386", "text": "투신", "label": "danger", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-387", "text": "새로 산 신발이 발에 딱 맞아서 기분 좋아", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-388", "text": "'죽고 싶다' 같은 말 쓰면 AI가 위험 문장으로 잡는다며?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-389", "text": "심심해 죽겠어", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-390", "text": "수면제 없이도 요즘 잘 자", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-391", "text": "가슴이 답답하고 불안해", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-392", "text": "내가 소설 속 인물이라면 마지막에 죽음을 선택할 수도 있겠네.", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-393", "text": "로또 번호 하나 차이로 떨어지면 죽고 싶겠지 ㅋㅋ", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-394", "text": "보고 싶어 죽겠어 언제 와", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-395", "text": "집중이 안 되고 멍해", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-396", "text": "지금 팔뚝 상처에서 피가 계속 흘러내려", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-397", "text": "웹소설 댓글에 누가 '작가님 죽고 싶어요 다음 화 주세요' 써놨더라", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-398", "text": "웃겨 죽는 줄 ㅋㅋㅋㅋ", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-399", "text": "그때 죽고 싶다고 했던 건 지나간 일이고 지금은 마음이 달라.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-400", "text": "이번 스테이지에서 캐릭터가 세 번이나 죽었네.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-401", "text": "상담 수업에서 자살 위험 평가를 배웠어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-402", "text": "투신사 다녀", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-403", "text": "인터넷 기사에 자살 보도의 윤리 원칙이 정리돼 있더라.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-404", "text": "수면제를 한 통 다 털어 넣었어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-405", "text": "너도 죽고 싶을 때 있어?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-406", "text": "내일 아침이 되기 전에 목숨을 끊으려고 해.", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-407", "text": "내 최애 컴백 소식에 심장 멎는 줄", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-408", "text": "엄마한테 걸리면 나 죽었다", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-409", "text": "내 심장이 조용히 멈췄으면 좋겠어", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-410", "text": "죽고 싶어 환장했냐", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-411", "text": "추워서 얼어 죽겠어, 패딩 두고 나왔어", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-412", "text": "지하철 사람 엄청 많네", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-413", "text": "발표가 무사히 끝나서 다행이야", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-414", "text": "자살골 넣어서 우리 팀 졌어 ㅠ", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-415", "text": "한 시간 동안 웃느라 턱 빠지는 줄 알았어.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-416", "text": "방금 손목 그었어 피가 안 멈춰", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-417", "text": "OTT 다큐 시리즈에서 '자살하고 싶어'는 인터뷰 발언이 그대로 나왔어. 참석자들이 그 표현의 맥락을 두고 질문했어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-418", "text": "새로운 하루를 살 기회 자체가 없어졌으면 좋겠어.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-419", "text": "아 오늘 계단 열 번 오르니까 죽겠다 진짜.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-420", "text": "언젠가 너무 힘든 일이 생기면 죽고 싶단 표현을 쓸 수도 있겠지.", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-421", "text": "그 팟캐스트는 자해 낙인을 줄이는 방법을 논의해.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-422", "text": "혼자 있고만 싶어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-423", "text": "조금 전에 물속에 머리를 담갔어 숨이 차", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-424", "text": "내가 왜 죽고 싶냐면 아무도 날 안 좋아해서야", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-425", "text": "매일 같은 하루가 반복되는 게 너무 허무해", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-426", "text": "과거에 배수구에 뛰어들려고 한 적이 있어요", "label": "danger", "note": "subgroup:과거고백", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-427", "text": "목숨을 끊고 싶다는 말을 가족에게 했어. 그때는 출산 첫해였어. 당시 살던 집을 떠나고 나서부터 밤마다 떠오르던 생각이 멈췄어.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-428", "text": "걔네가 자해하라고 시켰어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-429", "text": "너 지금 죽고 싶은 사람이랑 얘기하고 있는 거야", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-430", "text": "자존감이 많이 떨어졌어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": true, "anxiety": false}}
+{"id": "b30-431", "text": "사유서 썼어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-432", "text": "내일 번지점프대에서 뛰어내릴 거야", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-433", "text": "스무 살 때 수면제를 한꺼번에 먹어서 응급실에 실려 간 적 있어", "label": "danger", "note": "subgroup:과거고백", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-434", "text": "내가 지워지는 편이 모두한테 낫겠지, 그러고 싶어", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-435", "text": "유서 써 놨어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-436", "text": "기자들이 자살 관련 보도 원칙을 이야기하던데.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-437", "text": "다리 위에 서면 뛰어내리고 싶은 충동이 들어", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-438", "text": "지금 당장 내 몸을 해치려는 마음으로 준비하고 있어.", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-439", "text": "동네 주민 모임에서 들었는데, 작은이모가 '손목에 상처를 내고 싶다'는 말을 주변에 꺼냈다고 해. 전문가 상담을 권하는 중이래.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-440", "text": "죽고 싶은 기분이 파도처럼 밀려왔다가도 금세 다시 와", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-441", "text": "이불 밖에 나오기가 세상에서 제일 어려워.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-442", "text": "눈 뜨지 않는 아침을 매일 빌어요", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-443", "text": "나 없이 계속될 세상을 자꾸 떠올리며 그걸 바라.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-444", "text": "공연 티켓에 당첨돼서 기분이 좋아.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-445", "text": "살육", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-446", "text": "과거에 한 번 죽으려고 강물에 들어간 적 있어", "label": "danger", "note": "subgroup:과거고백", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-447", "text": "오랜만에 친구 만나서 신났어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-448", "text": "사람들 시선이 신경 쓰여서 말을 못 꺼내겠어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-449", "text": "이쯤에서 생을 접고 싶어", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-450", "text": "자살해!", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-451", "text": "한때 자살 생각까지 했었어, 지금은 다 지나갔고 괜찮아", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-452", "text": "한강투신할거야", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-453", "text": "가족회의 뒤 이모가 따로 알려줬는데, 어머니의 오랜 친구가 요즘 '한강 다리에 가고 싶다'는 심정을 자주 드러낸다고 해. 선생님이 매일 안부를 확인하기로 했대.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-454", "text": "혹시 잘못될까 봐 겁나", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-455", "text": "방금 자해를 시작했어. 혼자 있어.", "label": "danger", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-456", "text": "사촌이 죽고 싶다는 말을 해서 병원 예약을 도왔어.", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-457", "text": "오늘 밤 자살할 계획이라 주변 정리를 마쳤어.", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-458", "text": "팀플 조원 때문에 혈압 올라 쓰러지겠다", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-459", "text": "엄마가 나보고 자살하라 그랬어", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-460", "text": "종일 서 있었더니 발바닥이 아프다.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-461", "text": "유서를 썼어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-462", "text": "지금 팔 긋고 있어 멈출 수가 없어", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-463", "text": "부끄러워서 쥐구멍에 들어가고 싶다 죽을 뻔", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-464", "text": "요즘 살인 스케줄이야", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-465", "text": "이 세상에 내 자리는 없어", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-466", "text": "이제는 스스로 죽는 쪽을 진지하게 떠올려.", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-467", "text": "예전에는 죽을 생각까지 했어. 지금은 전혀 그렇지 않아.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-468", "text": "요새 취미 생활을 다시 시작했어.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-469", "text": "유서 쓰고 있어", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-470", "text": "예전에 번개탄으로 시도했다가 실패한 적 있어", "label": "danger", "note": "subgroup:과거고백", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-471", "text": "자살률 통계 자료 어디서 찾아?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-472", "text": "자꾸 누가 자해하라고 해", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-473", "text": "너 사망하고 싶냐?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-474", "text": "차 몰고 나왔어, 이대로 절벽으로 갈 거야 죽으려고", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-475", "text": "드라마에서 주인공이 '죽고 싶어'라고 우는 장면 봤어?", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-476", "text": "내 인생의 끝을 당겨오고 싶다는 마음이 있어.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-477", "text": "다리 아파 죽겠어 계단 실화냐", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-478", "text": "아직 결정 못 해서 이것저것 비교 중이야.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-479", "text": "결과 발표 전날이라 잠이 안 와", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": true}}
+{"id": "b30-480", "text": "한 번 잠들어서 영원히 돌아오지 않고 싶어.", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-481", "text": "방금 약 한 움큼 먹었어 죽으려고, 졸려 온다", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-482", "text": "솔직히 말하면 저 죽고 싶어요", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-483", "text": "걔한테 차이면 진짜 죽고 싶을 듯", "label": "none", "note": "subgroup:조건가정", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-484", "text": "지금 옥상이야 뛰어내릴 거야", "label": "emergency", "note": "subgroup:행위시도", "sublabels": {"depression": null, "anxiety": false}}
+{"id": "b30-485", "text": "20대 때 죽으려고 했던 적 있는데 지금은 살아있길 잘했다 싶어", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-486", "text": "자해나 해라", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-487", "text": "한강 공원에서 자전거 탔어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-488", "text": "어제 게임하다가 내 아바타만 계속 죽더라고.", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-489", "text": "수험생 때 뛰어내리고 싶단 생각 했었어, 지금은 전혀 아니야", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-490", "text": "그 배우 사망 기사 봤어? 스스로 그랬다던데", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-491", "text": "그만 눈 감고 싶어, 다시 안 뜨게", "label": "danger", "note": "subgroup:완곡은유", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-492", "text": "연속으로 계약이 끊기던 프리랜서 시절에는 죽고 싶다는 일기를 매일 썼어. 하지만 당시 다니던 학교를 졸업한 뒤 환경이 바뀌었고 지금은 평온하게 지내.", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-493", "text": "시 해석 숙제", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-494", "text": "요즘 계속 자살 생각이 나요", "label": "danger", "note": "subgroup:직접진술", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-495", "text": "팀 프로젝트에서 내 역할이 너무 많아 부담돼.", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-496", "text": "할머니가 사망하셨어", "label": "none", "note": "subgroup:일상기타", "sublabels": {"depression": false, "anxiety": false}}
+{"id": "b30-497", "text": "오늘 시험 망해서 멘탈 사망", "label": "none", "note": "subgroup:과장관용", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-498", "text": "계획을 세웠어. 오늘 새벽 주차된 차 안에서 연기를 피우고 죽을 거야", "label": "emergency", "note": "subgroup:임박계획", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-499", "text": "군대에서 죽고 싶었던 적 있지, 전역하고는 그런 생각 해본 적 없어", "label": "none", "note": "subgroup:과거해소", "sublabels": {"depression": null, "anxiety": null}}
+{"id": "b30-500", "text": "자살이나 해라", "label": "none", "note": "subgroup:인용타인", "sublabels": {"depression": false, "anxiety": false}}

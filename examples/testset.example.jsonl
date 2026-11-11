@@ -1,0 +1,12 @@
+{"id": "t-001", "text": "요즘 진짜 죽고 싶어", "label": "danger", "source": "rule-test"}
+{"id": "t-002", "text": "약을 다 먹었어", "label": "emergency", "source": "rule-test"}
+{"id": "t-003", "text": "배고파 죽겠다", "label": "none", "source": "rule-test", "note": "관용 표현"}
+{"id": "t-004", "text": "자살하고 싶다", "label": "danger", "source": "rule-test"}
+{"id": "t-005", "text": "손목을 그었어", "label": "emergency", "source": "manual"}
+{"id": "t-006", "text": "오늘 날씨가 좋아서 산책했어", "label": "none", "source": "manual"}
+{"id": "t-007", "text": "야 죽고 싶냐?", "label": "none", "source": "rule-test", "note": "듣는 상대에게 하는 말 — 제외 규칙 대상"}
+{"id": "t-008", "text": "혼자 살아요", "label": "none", "source": "rule-test", "note": "다른 단어에 걸쳐 생긴 글자 — 오탐 함정"}
+{"id": "t-009", "text": "유서를 썼어", "label": "emergency", "source": "manual"}
+{"id": "t-010", "text": "그냥 다 끝내고 싶어", "label": "danger", "source": "rule-test"}
+{"id": "t-011", "text": "죽고 싶다는 생각은 안 해", "label": "none", "source": "rule-test", "note": "부정문 — 사전 단계에서는 걸리지만(규칙만으로는 잡음) 실제 위험 아님"}
+{"id": "t-012", "text": "칼로 손목을 긋고 싶어", "label": "danger", "source": "manual", "note": "사전 표현의 변형 — 구 패턴에 없음"}

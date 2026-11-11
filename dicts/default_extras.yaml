@@ -1,0 +1,246 @@
+# riskcheck 기본 사전 추가 패턴 — build_default_dict.py가 기본 규칙 패턴 뒤에 병합한다.
+# 평가셋 v3의 미탐(완곡·변형 진성 표현 10건, h-049~058)을 근거로 2026-11-10 추가.
+# 패턴은 특정 문장의 통째 복사가 아니라 표현 가족 단위로 설계하고, 오탐 비용은
+# 평가셋 v3 + 회귀 테스트셋 271건으로 실측해 docs/사전_확장.md에 남긴다.
+patterns:
+- id: ex-dg-01
+  type: regex
+  pattern: 사라지(?:는\s?게\s?낫|고\s?싶)
+  category: suicide_self_harm
+  note: 소멸 욕구 완곡 표현 (h-049 "사라지는 게 낫겠어" 근거)
+- id: ex-dg-02
+  type: phrase
+  pattern: 영원히잠들
+  category: suicide_self_harm
+  note: 영원한 잠 비유 (h-050 "영원히 잠들고 싶어" 근거)
+- id: ex-dg-03
+  type: regex
+  pattern: (?:내가|나는)\s?없어지
+  category: suicide_self_harm
+  note: 자기 소멸 진술 (h-051 "내가 없어지는 게 모두에게 좋아" 근거)
+- id: ex-dg-04
+  type: regex
+  pattern: 손목을?\s?긋
+  category: suicide_self_harm
+  note: 자해 행위 직접 표현 (h-052 "손목을 긋고 싶어" 근거)
+- id: ex-dg-05
+  type: regex
+  pattern: 뛰어내리고\s?싶
+  category: suicide_self_harm
+  note: 투신 의지 표명 — 놀이·운동 맥락 제외는 탐지기 내장 규칙이 적용된다 (h-053 근거)
+- id: ex-dg-06
+  type: regex
+  pattern: 죽는\s?게\s?(?:답|낫|좋)
+  category: suicide_self_harm
+  note: 죽음을 해법으로 여기는 진술 (h-054 "죽는 게 답인 것 같아" 근거)
+- id: ex-dg-07
+  type: regex
+  pattern: 목숨을?\s?버리
+  category: suicide_self_harm
+  note: 목숨 포기 표현 (h-055 "내 목숨을 버리고 싶어" 근거)
+- id: ex-dg-08
+  type: regex
+  pattern: 약을?\s?모으
+  category: suicide_self_harm
+  note: 수단 준비 진행 (h-056 "약을 모으고 있어" 근거)
+- id: ex-em-01
+  type: regex
+  pattern: (?:수면제|알약|약).{0,10}털어\s?넣
+  category: suicide_self_harm
+  note: 약물 과량 복용 완료 (h-057 "수면제를 한 통 다 털어 넣었어" 근거)
+- id: ex-em-02
+  type: regex
+  pattern: (?:수면제|알약|약).{0,10}한꺼번에|한꺼번에\s?다?\s?(?:먹|털어)
+  category: suicide_self_harm
+  note: 약물 과량 복용 임박 (h-058 "지금 약 먹으려고, 한꺼번에 다" 근거)
+# ── 확장 2차: 독립 테스트셋(사전 제작 미사용 문장 200건)의 미탐 분석 근거.
+# 사전 단계는 진성/비진성을 가르는 장치가 아니라 어휘를 기계적으로 잡는 장치이므로
+# 확장은 Recall 우선으로 하고, 오탐 비용은 홀드아웃·평가셋으로 실측해 남긴다.
+- id: ex2-01
+  type: phrase
+  pattern: 번개탄
+  category: suicide_self_harm
+  note: 자살 수단 명사 — 일상 용도가 사실상 없는 어휘
+- id: ex2-02
+  type: regex
+  pattern: 몸을?\s?던지
+  category: suicide_self_harm
+  note: 투신 표현 변형 ("몸을 던질 거야")
+- id: ex2-03
+  type: phrase
+  pattern: 뛰어들
+  category: suicide_self_harm
+  note: 입수 행위 ("물에 뛰어들 거야", "뛰어들려고 한 적") — 수영 맥락 오탐은 기계 매칭의 감수 범위
+- id: ex2-04
+  type: regex
+  pattern: (?:약|수면제|알약).{0,8}(?:다\s?먹|한\s?번에|과하게)
+  category: suicide_self_harm
+  note: 약물 과량 복용 의도·행위 ("약을 다 먹어버릴", "한 번에 먹고 싶", "과하게 먹었더니")
+- id: ex2-05
+  type: regex
+  pattern: (?:팔|팔뚝).{0,3}베
+  category: suicide_self_harm
+  note: 자해 행위 ("팔을 베어버릴 계획") — 손목 긋기는 ex-dg-04가 담당
+- id: ex2-06
+  type: regex
+  pattern: 목\s?(?:을\s?)?매
+  category: suicide_self_harm
+  note: 교수 행위·연습 ("목 매는 연습을 해본 적")
+- id: ex2-07
+  type: regex
+  pattern: 난간을?\s?넘
+  category: suicide_self_harm
+  note: 난간 넘기 진행·임박 ("난간을 넘었어", "난간을 넘으려 해")
+- id: ex2-08
+  type: regex
+  pattern: 연기를?\s?피웠|연기를?\s?피우고
+  category: suicide_self_harm
+  note: 밀폐 공간 연기 흡입 맥락 ("차 안에서 연기를 피웠어") — 흡연 회상 오탐 가능, 실측 후 유지 판단
+- id: ex2-09
+  type: phrase
+  pattern: 극단적인생각
+  category: suicide_self_harm
+  note: 극단 선택의 사고 형태 ("극단적인 생각이 드는 날")
+- id: ex2-10
+  type: regex
+  pattern: 죽어도\s?(?:아무렇지|괜찮|상관없)
+  category: suicide_self_harm
+  note: 죽음 무감각 진술 ("죽어도 아무렇지 않을 것 같아")
+- id: ex2-11
+  type: regex
+  pattern: 끝났으면\s?좋겠
+  category: suicide_self_harm
+  note: 종료 소망 완곡형 ("다 끝났으면 좋겠다는 마음")
+- id: ex2-12
+  type: regex
+  pattern: 내일이?\s?없(?:었으면|으면\s?좋)
+  category: suicide_self_harm
+  note: 미래 부정 소망 ("진짜 내일이 없었으면 해")
+- id: ex2-13
+  type: regex
+  pattern: (?:스스로를?|몸을?)\s?(?:다치게|아프게)\s?하고\s?싶
+  category: suicide_self_harm
+  note: 자해 욕구 서술형 ("스스로를 다치게 하고 싶", "몸을 아프게 하고 싶어져")
+- id: ex2-14
+  type: phrase
+  pattern: 왜살아야하는지
+  category: suicide_self_harm
+  note: 삶의 이유 부정 ("내가 왜 살아야 하는지 모르겠")
+- id: ex2-15
+  type: regex
+  pattern: 죽음(?:에\s?대한)?\s?생각|죽는\s?게\s?무섭지\s?않|죽는\s?쪽
+  category: suicide_self_harm
+  note: 죽음 사고·무감각 ("죽음에 대한 생각", "죽는 게 무섭지 않은", "죽는 쪽을 생각")
+- id: ex2-16
+  type: regex
+  pattern: 아무것도\s?느끼고\s?싶지\s?않
+  category: suicide_self_harm
+  note: 감각 소멸 소망 ("사라져서 아무것도 느끼고 싶지 않은")
+- id: ex2-17
+  type: regex
+  pattern: 없어지는\s?게\s?(?:나을|낫|좋)
+  category: suicide_self_harm
+  note: 자기 소멸 긍정 ("없어지는 게 나을 것 같아") — ex-dg-01의 변형
+- id: ex2-18
+  type: regex
+  pattern: 시도(?:했다가|한\s?적|해본\s?적|했었)
+  category: suicide_self_harm
+  note: 과거 시도 고백 ("시도했다가 실패한 적", "시도한 적 있어")
+- id: ex2-19
+  type: phrase
+  pattern: 죽으려
+  category: suicide_self_harm
+  note: 죽음 시도 서술 ("죽으려고 강물에 들어간 적")
+# ── 확장 3차: 독립 생성 테스트셋(위해 300건)의 미탐 188건 전건 분석 근거.
+# 사전은 과포집이 본분이다 — 1차에서 넓게 잡고 진성/비진성 판별은 뒤단(모델)이 맡는다.
+# 아래 패턴은 문장 복사가 아니라 미탐에서 반복된 표현 가족 단위다.
+- id: ex3-01
+  type: regex
+  pattern: 죽어\s?버리|죽어\s?버렸으면|죽었으면\s?(?:좋겠|해)|죽기를\s?바라|죽을\s?생각|죽음을\s?선택
+  category: suicide_self_harm
+  note: 죽다 결심·소망 변형 ("죽어버릴까", "죽었으면 좋겠어", "죽을 생각이야", "죽음을 선택하고 싶")
+- id: ex3-02
+  type: regex
+  pattern: 죽을\s?거야|죽을\s?거니까|죽으러\s?(?:갈|가)|죽기로\s?했
+  category: suicide_self_harm
+  note: 미래 결심형 ("오늘 밤에 죽을 거야", "죽으러 갈게", "죽기로 했어")
+- id: ex3-03
+  type: regex
+  pattern: (?<![사이])유서.{0,4}(?:썼|쓴|두|뒀|남|적|쓰|야|입니다|라고)
+  category: suicide_self_harm
+  note: 유서 작성·소지 서술 ("유서 다 썼어", "유서는 책상 위에 뒀고") — 단어 단독 phrase는 "사유서/이유서"를 부분 매칭으로 잡는 결함이 실측돼 동사 결합형으로 한정한다
+- id: ex3-04
+  type: regex
+  pattern: (?:목숨|생)을?\s?끝내|생을\s?(?:마무리|마치|접)|삶을?\s?(?:끝내|그만두)
+  category: suicide_self_harm
+  note: 생 종료 서술 ("제 목숨 끝낼 거예요", "생을 마무리하고 싶", "삶을 그만두고 싶")
+- id: ex3-05
+  type: regex
+  pattern: (?:상처를?\s?(?:내고\s?싶|내\s?고|일부러\s?내)|몸에\s?상처|자신을?\s?해치|스스로를?\s?해치|나를\s?(?:다치게|해치)|몸을\s?해치)
+  category: suicide_self_harm
+  note: 자해 욕구 서술형 ("몸에 상처 내고 싶", "스스로를 해치고 싶", "나를 다치게 하고 싶")
+- id: ex3-06
+  type: regex
+  pattern: 긋고\s?싶|그었|긋고\s?있
+  category: suicide_self_harm
+  note: 긋기 욕구·진행 ("긋고 싶어 내 팔을", "방금 그었어", "긋고 있어")
+- id: ex3-07
+  type: regex
+  pattern: 살고\s?싶지가\s?않|살고\s?싶지\s?않아
+  category: suicide_self_harm
+  note: 생존 의지 부정 ("살고 싶지가 않아")
+- id: ex3-08
+  type: regex
+  pattern: (?:깨지\s?않는|안\s?깨는|깨어나지\s?않는?)\s?(?:잠|눈|아침)|다시(?:는)?\s?(?:안\s?)?일어나지\s?않|영원히\s?(?:안\s?)?(?:깨|일어나)
+  category: suicide_self_harm
+  note: 영원한 잠 가족 ("안 깨는 잠을 자고 싶", "깨어나지 않았으면", "다시 안 일어나게")
+- id: ex3-09
+  type: regex
+  pattern: (?:숨|심장)이?\s?(?:그냥\s?)?(?:멎|멈추|멈췄|꺼지)|숨을\s?놓
+  category: suicide_self_harm
+  note: 숨·심장 정지 소망 ("숨이 멎어줬으면", "심장이 멈췄으면", "숨을 놓아버리고 싶")
+- id: ex3-10
+  type: regex
+  pattern: 세상을\s?뜨|세상에서\s?(?:퇴장|로그아웃|하차)|삶에서\s?하차|세상과\s?(?:영영\s?)?작별
+  category: suicide_self_harm
+  note: 세상 이탈 은유 ("세상을 뜨고 싶어", "세상에서 로그아웃", "삶에서 하차")
+- id: ex3-11
+  type: phrase
+  pattern: 하늘나라
+  category: suicide_self_harm
+  note: 사후 세계 지향 ("하늘나라 가고 싶어") — 사별 그리움 오탐은 뒤단 판별 몫
+- id: ex3-12
+  type: phrase
+  pattern: 저세상
+  category: suicide_self_harm
+  note: 사후 세계 지향 ("저세상에 가보고 싶어", "저세상에서 만나자")
+- id: ex3-13
+  type: regex
+  pattern: 없던\s?사람이\s?되|존재하고\s?싶지\s?않|존재를?\s?(?:삭제|지우)|지워지는\s?편
+  category: suicide_self_harm
+  note: 존재 소멸 소망 ("없던 사람이 되고 싶어", "존재를 삭제하고 싶", "지워지는 편이 낫")
+- id: ex3-14
+  type: regex
+  pattern: 생을\s?반납|전원을\s?끄|꺼버리고\s?싶|막을\s?내리|마침표\s?찍
+  category: suicide_self_harm
+  note: 종료 은유 ("생을 반납하고 싶", "전원을 끄고 싶", "막을 내리고 싶", "마침표 찍고 싶")
+- id: ex3-15
+  type: regex
+  pattern: 내일이?\s?안\s?왔으면|없는\s?내일|내일(?:이)?\s?존재하지\s?않|내일이?\s?없었으면\s?좋
+  category: suicide_self_harm
+  note: 내일 부정 가족 보강 ("내일이 안 왔으면", "내가 없는 내일")
+- id: ex3-16
+  type: regex
+  pattern: 데려가\s?(?:줬으면|주)|그만\s?살고\s?싶|살아\s?있는\s?걸\s?그만
+  category: suicide_self_harm
+  note: 수동 종료·생존 중단 ("데려가 줬으면 좋겠어", "그만 살고 싶어요", "살아 있는 걸 그만하고 싶")
+- id: ex3-17
+  type: regex
+  pattern: (?:시간|삶|생)이?\s?(?:영원히\s?)?멈추|삶이?\s?멈추는
+  category: suicide_self_harm
+  note: 시간·삶 정지 소망 ("시간이 영원히 멈췄으면", "삶이 멈추는 순간을 그리는")
+- id: ex3-18
+  type: regex
+  pattern: 찌르려|상처를?\s?내고\s?있|해치기\s?직전|해치려
+  category: suicide_self_harm
+  note: 행위 임박·진행 ("나를 찌르려고", "상처를 내고 있어", "해치기 직전")

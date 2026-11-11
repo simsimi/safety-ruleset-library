@@ -1,0 +1,1009 @@
+{
+  "schema_version": "0.1",
+  "stage": "model",
+  "counts": {
+    "total": 500,
+    "evaluated": 500,
+    "errors": 0
+  },
+  "overall": {
+    "accuracy": 0.662,
+    "macro_f1": 0.3983
+  },
+  "per_label": {
+    "none": {
+      "precision": 0.7422,
+      "recall": 0.8597,
+      "f1": 0.7966,
+      "support": 385
+    },
+    "risk": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 115
+    }
+  },
+  "binary_risk": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 115
+  },
+  "confusion": {
+    "labels": [
+      "none",
+      "risk"
+    ],
+    "matrix": [
+      [
+        331,
+        54
+      ],
+      [
+        115,
+        0
+      ]
+    ]
+  },
+  "false_positives": [
+    {
+      "id": "s-177",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "h-027",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "h-028",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "h-033",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "h-034",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "h-037",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "h-038",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "h-039",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "h-040",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "h-041",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "h-042",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-003",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-005",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-023",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-025",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-026",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-027",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-029",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-030",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-033",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-038",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-039",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-040",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-041",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-042",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-043",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-044",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-047",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-048",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-049",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-050",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-051",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-052",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-053",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-054",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-058",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-059",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-060",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-061",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-071",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-072",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-077",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-090",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-104",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-113",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-118",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-121",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-130",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-131",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-138",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-141",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-146",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-149",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "m-150",
+      "gold": "none",
+      "predicted": "risk"
+    }
+  ],
+  "false_negatives": [
+    {
+      "id": "s-001",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-002",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-004",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-005",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-006",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-007",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-008",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-009",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-010",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-011",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-012",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-013",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-014",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-015",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-016",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-017",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-018",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-019",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-020",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-021",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-022",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-023",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-024",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-025",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-026",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-027",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-028",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-029",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-030",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-031",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-032",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-033",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-034",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-035",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-036",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-037",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-038",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-039",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-040",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-041",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-042",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-046",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-047",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-048",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-049",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-050",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-059",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-060",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-061",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-062",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-063",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-064",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-065",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-066",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-067",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-068",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-069",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-070",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-071",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-072",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-073",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-074",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-075",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-076",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-077",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-078",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-079",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-080",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-081",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-082",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-083",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-084",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-085",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-086",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-087",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-088",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-089",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-090",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-094",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-095",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-103",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-104",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-105",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-106",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-107",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-131",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-132",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-133",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-134",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-135",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-136",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-137",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-138",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-139",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-140",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-141",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-142",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-143",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-144",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-146",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "s-148",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-049",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-050",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-051",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-052",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-053",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-054",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-055",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-056",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-057",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-058",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-059",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-060",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-061",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "h-062",
+      "gold": "risk",
+      "predicted": "none"
+    }
+  ],
+  "error_cases": [],
+  "certainty_summary": {
+    "counts": {
+      "certain": 490,
+      "ambiguous": 10,
+      "needs_context": 0
+    },
+    "certain_only": {
+      "n": 490,
+      "accuracy": 0.6694,
+      "binary_risk": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 108
+      }
+    },
+    "ambiguous_directional": {
+      "n": 10,
+      "correct": 3,
+      "miss": 7,
+      "overcall": 0
+    }
+  },
+  "subgroup_metrics": {
+    "hyperbole_meme": {
+      "n": 5,
+      "positives": 5,
+      "detected": 0,
+      "detection_rate": 0.0,
+      "negatives": 0,
+      "false_positives": 0,
+      "fp_rate": null
+    },
+    "indirect_question": {
+      "n": 3,
+      "positives": 0,
+      "detected": 0,
+      "detection_rate": null,
+      "negatives": 3,
+      "false_positives": 0,
+      "fp_rate": 0.0
+    }
+  },
+  "thresholds": {
+    "depression": 0.5,
+    "anxiety": 0.5
+  },
+  "sublabel_metrics": {
+    "depression": {
+      "precision": 0.6087,
+      "recall": 0.1918,
+      "f1": 0.2917,
+      "support": 73
+    },
+    "anxiety": {
+      "precision": 0.8485,
+      "recall": 0.4058,
+      "f1": 0.549,
+      "support": 69
+    },
+    "any_signal": {
+      "precision": 0.7407,
+      "recall": 0.2899,
+      "f1": 0.4167,
+      "support": 138
+    }
+  },
+  "sublabel_counts": {
+    "depression": {
+      "labeled": 466,
+      "null_excluded": 34
+    },
+    "anxiety": {
+      "labeled": 499,
+      "null_excluded": 1
+    },
+    "any_signal": {
+      "labeled": 466,
+      "null_excluded": 34
+    }
+  },
+  "sublabel_metrics_certain": {
+    "depression": {
+      "precision": 0.6087,
+      "recall": 0.1918,
+      "f1": 0.2917,
+      "support": 73
+    },
+    "anxiety": {
+      "precision": 0.8485,
+      "recall": 0.4058,
+      "f1": 0.549,
+      "support": 69
+    },
+    "any_signal": {
+      "precision": 0.7407,
+      "recall": 0.2899,
+      "f1": 0.4167,
+      "support": 138
+    }
+  },
+  "generated_at": "2026-11-11T01:15:36+00:00",
+  "dataset": {
+    "name": "evalset_human.jsonl",
+    "count": 500
+  },
+  "model": {
+    "name": "stub-0.1",
+    "version": "stub-0.1"
+  }
+}

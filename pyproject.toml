@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "riskcheck"
+version = "0.1.0"
+description = "한국어 위험 표현(자살·자해) 판별 테스트 도구 — 단어 사전 단계 판정과 단계별 평가 리포트"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "jsonschema>=4",
+]
+local-onnx = [
+    "transformers>=4.40",
+    "onnxruntime>=1.17",
+]
+local-hf = [
+    "transformers>=4.40",
+    "torch>=2.0",
+]
+
+[project.scripts]
+riskcheck = "riskcheck.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

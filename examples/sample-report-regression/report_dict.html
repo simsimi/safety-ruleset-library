@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>위험판별 평가 리포트 — 사전 단계</title>
+<style>
+:root { --ink:#16233a; --sub:#5a6a84; --line:#dfe5ee; --accent:#1e4a73;
+        --soft:#f4f6fa; --diag:#e8eff7; }
+* { box-sizing:border-box; }
+body { margin:0; background:#eef1f5; color:var(--ink);
+       font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic",
+       "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+       font-size:15px; line-height:1.55; }
+.page { max-width:940px; margin:0 auto; padding:40px 20px 56px; }
+header { background:#fff; border:1px solid var(--line); border-top:4px solid var(--accent);
+         padding:28px 32px 24px; }
+.eyebrow { font-size:12px; letter-spacing:.14em; color:var(--accent); font-weight:700; }
+h1 { font-size:24px; margin:6px 0 4px; font-weight:700; }
+.stage { display:inline-block; margin-top:8px; padding:2px 10px; border:1px solid var(--accent);
+         color:var(--accent); border-radius:999px; font-size:12.5px; font-weight:600; }
+.meta { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+        gap:10px 28px; margin-top:20px; }
+.meta div { border-top:1px solid var(--line); padding-top:8px; }
+.meta dt { font-size:12px; color:var(--sub); }
+.meta dd { margin:2px 0 0; font-weight:600; }
+section { background:#fff; border:1px solid var(--line); padding:24px 32px; margin-top:16px; }
+h2 { font-size:16px; margin:0 0 14px; padding-bottom:8px; border-bottom:2px solid var(--ink); }
+.note { color:var(--sub); font-size:13px; margin:-6px 0 12px; }
+.kpis { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:12px; }
+.kpi { background:var(--soft); border:1px solid var(--line); padding:14px 16px; }
+.kpi .k { font-size:12px; color:var(--sub); }
+.kpi .v { font-size:24px; font-weight:700; margin-top:2px; font-variant-numeric:tabular-nums; }
+table { border-collapse:collapse; width:100%; font-variant-numeric:tabular-nums; }
+th, td { border:1px solid var(--line); padding:7px 10px; text-align:right; }
+th:first-child, td:first-child { text-align:left; }
+thead th { background:var(--soft); font-weight:600; }
+tbody th { background:#fff; font-weight:600; }
+td.diag { background:var(--diag); font-weight:700; }
+td.zero { color:#9aa7ba; }
+.chip { display:inline-block; padding:0 8px; border-radius:999px; background:var(--soft);
+        border:1px solid var(--line); font-size:12.5px; font-weight:600; }
+.cols { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+@media (max-width:720px) { .cols { grid-template-columns:1fr; }
+  header, section { padding-left:20px; padding-right:20px; } }
+.empty { color:var(--sub); }
+footer { color:var(--sub); font-size:12.5px; text-align:center; margin-top:22px; }
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+<div class="eyebrow">RISKCHECK</div>
+<h1>위험판별 평가 리포트</h1>
+<span class="stage">사전 단계</span>
+<dl class="meta"><div><dt>테스트셋</dt><dd>testset.jsonl (271건)</dd></div><div><dt>사전</dt><dd>(저장된 결과) (저장된 결과)</dd></div><div><dt>평가 단계</dt><dd>사전 단계</dd></div><div><dt>평가 완료 / 오류</dt><dd>271건 / 0건 (오류는 지표 분모에서 제외)</dd></div><div><dt>생성 시각</dt><dd>2026-11-11T01:15:36+00:00</dd></div></dl>
+<p class="note" style="margin:14px 0 0">판정 방식: 패턴이 하나라도 걸리면 risk, 없으면 none이다. 사전 패턴에 등급은 없다. 정답 라벨이 등급(danger/emergency)으로 붙은 테스트셋은 채점할 때 risk로 접는다.</p>
+</header>
+<section><h2>핵심 지표</h2><div class="kpis"><div class="kpi"><div class="k">정확도 (Accuracy)</div><div class="v">1.0000</div></div><div class="kpi"><div class="k">Macro F1</div><div class="v">1.0000</div></div><div class="kpi"><div class="k">위험 Precision</div><div class="v">1.0000</div></div><div class="kpi"><div class="k">위험 Recall</div><div class="v">1.0000</div></div><div class="kpi"><div class="k">위험 F1</div><div class="v">1.0000</div></div></div></section><section><h2>라벨별 지표</h2><table><thead><tr><th>라벨</th><th>Precision</th><th>Recall</th><th>F1</th><th>Support</th></tr></thead><tbody><tr><th>none</th><td>1.0000</td><td>1.0000</td><td>1.0000</td><td>147</td></tr><tr><th>risk</th><td>1.0000</td><td>1.0000</td><td>1.0000</td><td>124</td></tr></tbody></table></section><section><h2>혼동행렬</h2><p class="note">행 = 정답, 열 = 예측.</p><table><thead><tr><th>정답 \ 예측</th><th>none</th><th>risk</th></tr></thead><tbody><tr><th>none</th><td class="diag">147</td><td class="zero">0</td></tr><tr><th>risk</th><td class="zero">0</td><td class="diag">124</td></tr></tbody></table></section><section><h2>패턴 매칭 통계</h2><p class="note">패턴별 매칭 건수와, 그중 정답이 none인 오탐 매칭 건수다. 자주 걸리는데 오탐이 많은 패턴부터 다듬는다.</p><table><thead><tr><th>패턴</th><th>매칭</th><th>오탐 매칭</th></tr></thead><tbody><tr><th>dg-risk-word</th><td>61</td><td>0</td></tr><tr><th>dg-phrase-01</th><td>27</td><td>0</td></tr><tr><th>em-will</th><td>6</td><td>0</td></tr><tr><th>dg-phrase-10</th><td>5</td><td>0</td></tr><tr><th>em-jump</th><td>4</td><td>0</td></tr><tr><th>dg-phrase-02</th><td>2</td><td>0</td></tr><tr><th>em-phrase-02</th><td>2</td><td>0</td></tr><tr><th>em-phrase-01</th><td>1</td><td>0</td></tr><tr><th>ex-dg-01</th><td>1</td><td>0</td></tr><tr><th>dg-phrase-08</th><td>1</td><td>0</td></tr><tr><th>dg-phrase-13</th><td>1</td><td>0</td></tr><tr><th>dg-phrase-14</th><td>1</td><td>0</td></tr><tr><th>dg-phrase-15</th><td>1</td><td>0</td></tr><tr><th>dg-phrase-17</th><td>1</td><td>0</td></tr><tr><th>dg-phrase-18</th><td>1</td><td>0</td></tr><tr><th>dg-phrase-16</th><td>1</td><td>0</td></tr><tr><th>dg-phrase-03</th><td>1</td><td>0</td></tr><tr><th>dg-phrase-04</th><td>1</td><td>0</td></tr><tr><th>dg-phrase-07</th><td>1</td><td>0</td></tr><tr><th>em-phrase-04</th><td>1</td><td>0</td></tr><tr><th>em-phrase-03</th><td>1</td><td>0</td></tr><tr><th>ex-em-01</th><td>1</td><td>0</td></tr><tr><th>em-phrase-09</th><td>1</td><td>0</td></tr><tr><th>em-phrase-08</th><td>1</td><td>0</td></tr><tr><th>em-phrase-10</th><td>1</td><td>0</td></tr><tr><th>em-phrase-12</th><td>1</td><td>0</td></tr></tbody></table></section><section><h2>오탐 · 미탐</h2><div class="cols"><div><h3>오탐 — 위험 아님을 위험으로 판정 (0건)</h3><p class="empty">없음</p></div><div><h3>미탐 — 위험을 놓침 (0건)</h3><p class="empty">없음</p></div></div></section>
+<footer>riskcheck — 한국어 위험 표현 판별 테스트 도구 · 기본 사전과 기본 모델은 성능 측정의 출발점이다.</footer>
+</div>
+</body>
+</html>

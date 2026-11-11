@@ -1,0 +1,34 @@
+riskcheck
+=========
+
+Copyright (c) 2026 SimSimi Inc.
+
+이 저장소의 소스 코드는 MIT License를 따른다 (LICENSE 파일 참고).
+함께 배포되는 모델 가중치(models/ 아래에 내려받는 파일)는 코드와 별개로
+아래 조건을 따른다.
+
+기본 모델 가중치
+----------------
+
+기본 모델 두 개는 아래 공개 백본 모델을 파인튜닝한 것이다.
+
+1. 우울/불안 판별 모델 (models/emotion-heads-v1/)
+   - 백본: monologg/koelectra-small-v3-discriminator (KoELECTRA)
+   - 백본 라이선스: Apache License 2.0
+   - 출처: https://github.com/monologg/KoELECTRA
+   - 학습 데이터 출처: AI 허브(https://aihub.or.kr)에서 제공하는
+     데이터셋을 활용했다 (감성 대화 말뭉치, 공감형 대화, 연속적 대화,
+     웰니스 대화 스크립트). 그 밖에 KOTE 데이터셋(MIT License)과
+     자체 제작 데이터를 함께 사용했다. 데이터 원본은 배포하지 않는다.
+
+2. 진성/비진성 판별 모델 (models/harm-genuine-v2/)
+   - 백본: beomi/KcELECTRA-base-v2022 (KcELECTRA)
+   - 백본 라이선스: MIT License
+   - 출처: https://github.com/Beomi/KcELECTRA
+   - 백본 인용: Lee, J. (2021). KcELECTRA: Korean comments ELECTRA.
+     https://github.com/Beomi/KcELECTRA
+
+두 모델 가중치 중 본 프로젝트의 파인튜닝 산출물에 대한 이용 조건은
+Apache License 2.0이며, 백본에서 유래한 부분은 각 백본의 원 라이선스를
+따른다. 라이선스 전문은 LICENSES/ 폴더에 동봉한다 (Apache-2.0.txt,
+MIT-KcELECTRA.txt).

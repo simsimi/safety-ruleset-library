@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1",
+  "stage": "dict",
+  "dataset": {
+    "name": "testset.example.jsonl",
+    "count": 12
+  },
+  "dictionary": {
+    "name": "default",
+    "version": "0.1.0"
+  },
+  "counts": {
+    "total": 12,
+    "evaluated": 12,
+    "errors": 0
+  },
+  "overall": {
+    "accuracy": 0.8333,
+    "macro_f1": 0.8286
+  },
+  "per_label": {
+    "none": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8,
+      "support": 5
+    },
+    "risk": {
+      "precision": 0.8571,
+      "recall": 0.8571,
+      "f1": 0.8571,
+      "support": 7
+    }
+  },
+  "binary_risk": {
+    "precision": 0.8571,
+    "recall": 0.8571,
+    "f1": 0.8571,
+    "support": 7
+  },
+  "confusion": {
+    "labels": [
+      "none",
+      "risk"
+    ],
+    "matrix": [
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        6
+      ]
+    ]
+  },
+  "false_positives": [
+    {
+      "id": "t-011",
+      "gold": "none",
+      "predicted": "risk"
+    }
+  ],
+  "false_negatives": [
+    {
+      "id": "t-012",
+      "gold": "risk",
+      "predicted": "none"
+    }
+  ],
+  "error_cases": []
+}

@@ -1,0 +1,74 @@
+# riskcheck 기본 사전 (예시 발췌본)
+# 사전 YAML 형식의 예다. 기본 규칙의 일부를 발췌해 형식을 보여준다.
+# phrase 패턴은 공백 없이 적는다(공백 제거 텍스트에서 매칭).
+name: default
+version: 0.1.0
+description: 자살·자해 위험 표현 사전. 성능 측정의 출발점으로 제공된다.
+
+patterns:
+  # --- emergency: 이미 벌어졌거나 곧 벌어지려는 상황 ---
+  - id: em-pill-all-1
+    type: phrase
+    pattern: "약을다먹었"
+    category: self_harm
+    note: 약을 한꺼번에 먹었다는 말 (변형은 항목을 나눠 적는다)
+  - id: em-pill-all-2
+    type: phrase
+    pattern: "약다먹었"
+    category: self_harm
+  - id: em-wrist-cut
+    type: phrase
+    pattern: "손목을그었"
+    category: self_harm
+  - id: em-last-words
+    type: phrase
+    pattern: "마지막인사"
+    category: suicide
+  - id: em-will
+    type: regex
+    pattern: '(?<![가-힣])유서 ?(?:를 ?)?(?:썼|써|쓰|쓸)'
+    category: suicide
+    note: "'사유서'·'이유서'는 낱말 머리가 아니라 걸리지 않는다"
+  - id: em-jump
+    type: regex
+    pattern: '뛰어내릴|뛰어내리려'
+    category: suicide
+    note: 다이빙·번지점프 같은 놀이 맥락 제외는 탐지기 내장 규칙이 맡는다
+
+  # --- danger: 자기를 해치는 생각 ---
+  - id: dg-want-die
+    type: phrase
+    pattern: "죽고싶"
+    category: suicide
+  - id: dg-disappear
+    type: phrase
+    pattern: "사라지고싶"
+    category: suicide
+  - id: dg-tired-life
+    type: phrase
+    pattern: "살기싫"
+    category: suicide
+  - id: dg-end-it
+    type: phrase
+    pattern: "끝내고싶"
+    category: suicide
+  - id: dg-sever-life
+    type: phrase
+    pattern: "목숨을끊"
+    category: suicide
+  - id: dg-extreme-choice
+    type: phrase
+    pattern: "극단적선택"
+    category: suicide
+  - id: dg-risk-words
+    type: regex
+    pattern: '(?<![가-힣])자살(?!골)|(?<![가-힣])자해(?![보봐볼봤])|(?<![가-힣])투신(?!사)'
+    category: suicide
+    note: 단일어 규칙의 발췌본. 전체 규칙에는 뒤따르는 말로 가르는 경계 조건이 더 붙는다
+
+excludes:
+  # 매칭 전에 적용한다. 상대에게 하는 말처럼 위험이 아닌 구간을 지운다.
+  - id: ex-threat-question
+    type: regex
+    pattern: '(?:죽고 ?싶|살기 ?싫)(?:냐|니)'
+    note: 간략화한 예다. '죽고 싶냐면·죽고 싶냐고' 같은 제 이야기 꼴을 빼지 않도록 절 단위로 보는 로직은 탐지기 내장 규칙이 담당한다

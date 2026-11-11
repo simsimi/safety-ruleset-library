@@ -1,0 +1,439 @@
+{
+  "$defs": {
+    "case": {
+      "additionalProperties": false,
+      "properties": {
+        "gold": {
+          "enum": [
+            "none",
+            "risk"
+          ],
+          "type": "string"
+        },
+        "gold_basis": {
+          "enum": [
+            "harm",
+            "depression",
+            "anxiety",
+            "depression+anxiety",
+            "none"
+          ],
+          "type": "string",
+          "description": "통합 리포트의 사례에만 있다. 정답 risk의 근거 — harm=위해 라벨, depression/anxiety=하위 라벨 양성, none=정답 자체가 none."
+        },
+        "id": {
+          "type": "string"
+        },
+        "predicted": {
+          "enum": [
+            "none",
+            "risk"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "gold",
+        "predicted"
+      ],
+      "type": "object"
+    },
+    "label_metrics": {
+      "additionalProperties": false,
+      "properties": {
+        "f1": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "precision": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "recall": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "support": {
+          "description": "정답 기준 이 라벨의 건수.",
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "precision",
+        "recall",
+        "f1",
+        "support"
+      ],
+      "type": "object"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "report.json의 구조. report.md는 이 파일과 같은 수치를 사람이 읽기 좋게 렌더링한 것이다. 분모가 0인 지표는 null로 적는다.",
+  "properties": {
+    "binary_risk": {
+      "$ref": "#/$defs/label_metrics",
+      "description": "위험(risk) 클래스의 이진 지표. per_label의 risk와 같은 값이며, 핵심 지표로 별도 표기한다."
+    },
+    "confusion": {
+      "additionalProperties": false,
+      "description": "matrix[행][열], 행=정답, 열=예측. labels 순서와 같은 순서다.",
+      "properties": {
+        "labels": {
+          "items": {
+            "enum": [
+              "none",
+              "risk"
+            ],
+            "type": "string"
+          },
+          "maxItems": 2,
+          "minItems": 2,
+          "type": "array"
+        },
+        "matrix": {
+          "items": {
+            "items": {
+              "minimum": 0,
+              "type": "integer"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "type": "array"
+          },
+          "maxItems": 2,
+          "minItems": 2,
+          "type": "array"
+        }
+      },
+      "required": [
+        "labels",
+        "matrix"
+      ],
+      "type": "object"
+    },
+    "counts": {
+      "additionalProperties": false,
+      "description": "total=테스트셋 전체 건수, evaluated=지표 계산에 들어간 건수, errors=판정 오류로 분모에서 제외한 건수. total = evaluated + errors 여야 한다.",
+      "properties": {
+        "errors": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "evaluated": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "total": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "total",
+        "evaluated",
+        "errors"
+      ],
+      "type": "object"
+    },
+    "dataset": {
+      "additionalProperties": false,
+      "properties": {
+        "count": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "dictionary": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "version"
+      ],
+      "type": "object"
+    },
+    "error_cases": {
+      "description": "판정 오류 사례와 사유.",
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "error": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "error"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "false_negatives": {
+      "description": "위험인데 놓친 사례. 전체 목록.",
+      "items": {
+        "$ref": "#/$defs/case"
+      },
+      "type": "array"
+    },
+    "false_positives": {
+      "description": "위험으로 잘못 판정한 사례. 전체 목록.",
+      "items": {
+        "$ref": "#/$defs/case"
+      },
+      "type": "array"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "overall": {
+      "additionalProperties": false,
+      "properties": {
+        "accuracy": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "macro_f1": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "accuracy",
+        "macro_f1"
+      ],
+      "type": "object"
+    },
+    "per_label": {
+      "additionalProperties": false,
+      "properties": {
+        "none": {
+          "$ref": "#/$defs/label_metrics"
+        },
+        "risk": {
+          "$ref": "#/$defs/label_metrics"
+        }
+      },
+      "required": [
+        "none",
+        "risk"
+      ],
+      "type": "object"
+    },
+    "schema_version": {
+      "description": "리포트 스키마 버전. 예: 0.1",
+      "type": "string"
+    },
+    "stage": {
+      "description": "평가 대상 단계. combined=단계들을 정책으로 합친 최종 판정, harm=위해 모델 단독(standalone 운용점 기준).",
+      "enum": [
+        "dict",
+        "model",
+        "harm",
+        "combined"
+      ],
+      "type": "string"
+    },
+    "thresholds": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "모델 단계 임계값 정책. dict 단계 리포트에는 없다.",
+      "properties": {
+        "depression": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "anxiety": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "required": [
+        "depression",
+        "anxiety"
+      ]
+    },
+    "model": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "모델 단계 리포트의 모델 정보.",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "version"
+      ]
+    },
+    "sublabel_metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "모델 단계 전용. 테스트셋 sublabels(우울/불안) 기준 지표. null인 항목은 제외한다.",
+      "properties": {
+        "depression": {
+          "$ref": "#/$defs/label_metrics"
+        },
+        "anxiety": {
+          "$ref": "#/$defs/label_metrics"
+        },
+        "any_signal": {
+          "$ref": "#/$defs/label_metrics"
+        }
+      },
+      "required": [
+        "depression",
+        "anxiety",
+        "any_signal"
+      ]
+    },
+    "sublabel_metrics_certain": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "sublabel_metrics와 같은 구조이되, 해당 축 certainty가 certain인 항목만으로 계산한 참고 지표."
+    },
+    "sublabel_counts": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "클래스별 평가 건수와 null 제외 건수. {클래스: {labeled, null_excluded}}."
+    },
+    "certainty_summary": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "등급 축 certainty 분리 집계. counts(분포), certain_only(확실 건만으로 계산한 정확도·위험 이진 지표), ambiguous_directional(ambiguous 건의 정답/누락/과탐)."
+    },
+    "subgroup_metrics": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "note의 subgroup:<이름> 태그별 집계. {이름: {n, positives, detected, detection_rate, negatives, false_positives, fp_rate}}."
+    },
+    "pattern_stats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "pattern_id": {"type": "string"},
+          "hits": {"type": "integer", "minimum": 0},
+          "fp_hits": {"type": "integer", "minimum": 0}
+        },
+        "required": ["pattern_id", "hits", "fp_hits"]
+      },
+      "description": "사전 단계 전용. 패턴별 매칭 건수(hits)와 그중 정답이 none인 오탐 건수(fp_hits). 히트 내림차순."
+    },
+    "contribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "caught_by_dict": {"type": "integer", "minimum": 0},
+        "caught_by_model": {"type": "integer", "minimum": 0},
+        "missed": {"type": "integer", "minimum": 0},
+        "fp_from_dict": {"type": "integer", "minimum": 0},
+        "fp_from_model": {"type": "integer", "minimum": 0},
+        "clean_none": {"type": "integer", "minimum": 0},
+        "model_errors": {"type": "integer", "minimum": 0},
+        "caught_by_harm": {"type": "integer", "minimum": 0},
+        "fp_from_harm": {"type": "integer", "minimum": 0},
+        "dict_dropped_by_harm": {"type": "integer", "minimum": 0},
+        "harm_errors": {"type": "integer", "minimum": 0}
+      },
+      "required": ["caught_by_dict", "caught_by_model", "missed",
+                   "fp_from_dict", "fp_from_model", "clean_none", "model_errors"],
+      "description": "통합 단계 전용. 최종 판정의 정답·오답이 어느 단계에서 왔는지 분해한 건수. caught_by_dict=사전이 잡은 위험, caught_by_model=사전이 놓쳤으나 모델 신호로 잡은 위험, missed=끝내 놓친 위험, fp_from_dict=사전이 만든 오탐, fp_from_model=모델 신호가 만든 오탐, clean_none=맞게 비위험으로 둔 건, model_errors=모델 오류로 사전 판정만으로 평가한 건. 위해 모델이 있으면 caught_by_harm(위해 모델이 단독으로 잡은 위험)·fp_from_harm(위해 모델 오탐)·dict_dropped_by_harm(사전이 잡았으나 위해 확인에서 떨어진 건)·harm_errors(위해 모델 오류로 기존 규칙으로 평가한 건)가 추가된다."
+    },
+    "harm_model": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "위해 모델 정보. 위해 모델 리포트와 통합 리포트에 있다.",
+      "properties": {
+        "name": {"type": "string"},
+        "version": {"type": "string"}
+      },
+      "required": ["name", "version"]
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "위해 모델 단독 리포트의 결합 정책. confirm=사전 포착 확정 임계값, standalone=단독 승격 임계값.",
+      "properties": {
+        "confirm": {"type": "number", "minimum": 0},
+        "standalone": {"type": "number", "minimum": 0}
+      },
+      "required": ["confirm", "standalone"]
+    },
+    "harm_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "통합 리포트에 적용된 위해 결합 정책. policy와 같은 구조.",
+      "properties": {
+        "confirm": {"type": "number", "minimum": 0},
+        "standalone": {"type": "number", "minimum": 0}
+      },
+      "required": ["confirm", "standalone"]
+    },
+    "harm_confirm_metrics": {
+      "$ref": "#/$defs/label_metrics",
+      "description": "위해 모델 단독 리포트 전용. confirm 운용점에서 계산한 위험 이진 지표(참고)."
+    },
+    "gold_definition": {
+      "type": "string",
+      "description": "통합 리포트 전용. 채점 정답의 정의 — 위해 라벨 또는 하위 라벨(우울/불안) 양성을 risk로 본다는 것과, risk가 단계명이 아닌 보편적인 위험 탐지의 이진 정답이라는 것을 명시한다."
+    }
+  },
+  "required": [
+    "schema_version",
+    "stage",
+    "counts",
+    "overall",
+    "per_label",
+    "binary_risk",
+    "confusion"
+  ],
+  "title": "riskcheck 평가 리포트 (JSON)",
+  "type": "object"
+}

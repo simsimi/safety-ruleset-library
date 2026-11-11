@@ -1,0 +1,105 @@
+{
+  "schema_version": "0.1",
+  "stage": "dict",
+  "counts": {
+    "total": 12,
+    "evaluated": 12,
+    "errors": 0
+  },
+  "overall": {
+    "accuracy": 0.8333,
+    "macro_f1": 0.8286
+  },
+  "per_label": {
+    "none": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8,
+      "support": 5
+    },
+    "risk": {
+      "precision": 0.8571,
+      "recall": 0.8571,
+      "f1": 0.8571,
+      "support": 7
+    }
+  },
+  "binary_risk": {
+    "precision": 0.8571,
+    "recall": 0.8571,
+    "f1": 0.8571,
+    "support": 7
+  },
+  "confusion": {
+    "labels": [
+      "none",
+      "risk"
+    ],
+    "matrix": [
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        6
+      ]
+    ]
+  },
+  "false_positives": [
+    {
+      "id": "t-011",
+      "gold": "none",
+      "predicted": "risk"
+    }
+  ],
+  "false_negatives": [
+    {
+      "id": "t-012",
+      "gold": "risk",
+      "predicted": "none"
+    }
+  ],
+  "error_cases": [],
+  "pattern_stats": [
+    {
+      "pattern_id": "dg-want-die",
+      "hits": 2,
+      "fp_hits": 1
+    },
+    {
+      "pattern_id": "em-pill-all-1",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-risk-words",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-wrist-cut",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-will",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-end-it",
+      "hits": 1,
+      "fp_hits": 0
+    }
+  ],
+  "generated_at": "2026-11-11T01:15:35+00:00",
+  "dataset": {
+    "name": "testset.example.jsonl",
+    "count": 12
+  },
+  "dictionary": {
+    "name": "(저장된 결과)",
+    "version": "(저장된 결과)"
+  }
+}

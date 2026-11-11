@@ -1,0 +1,976 @@
+{
+  "schema_version": "0.1",
+  "stage": "model",
+  "counts": {
+    "total": 500,
+    "evaluated": 500,
+    "errors": 0
+  },
+  "overall": {
+    "accuracy": 0.65,
+    "macro_f1": 0.394
+  },
+  "per_label": {
+    "none": {
+      "precision": 0.6842,
+      "recall": 0.9286,
+      "f1": 0.7879,
+      "support": 350
+    },
+    "risk": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 150
+    }
+  },
+  "binary_risk": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 150
+  },
+  "confusion": {
+    "labels": [
+      "none",
+      "risk"
+    ],
+    "matrix": [
+      [
+        325,
+        25
+      ],
+      [
+        150,
+        0
+      ]
+    ]
+  },
+  "false_positives": [
+    {
+      "id": "b30-037",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-039",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-096",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-098",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-106",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-161",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-170",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-195",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-201",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-211",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-236",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-242",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-265",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-270",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-273",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-301",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-326",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-343",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-353",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-371",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-382",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-391",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-425",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-430",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "b30-479",
+      "gold": "none",
+      "predicted": "risk"
+    }
+  ],
+  "false_negatives": [
+    {
+      "id": "b30-002",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-003",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-004",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-009",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-018",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-019",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-020",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-024",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-027",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-028",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-032",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-035",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-036",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-038",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-040",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-041",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-048",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-049",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-050",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-054",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-055",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-057",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-060",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-061",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-062",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-063",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-071",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-072",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-073",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-074",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-077",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-078",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-080",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-083",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-087",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-090",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-092",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-097",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-099",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-109",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-113",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-119",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-122",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-130",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-131",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-132",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-137",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-140",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-144",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-145",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-146",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-148",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-151",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-152",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-153",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-154",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-155",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-157",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-164",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-176",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-178",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-181",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-183",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-187",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-196",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-198",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-203",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-204",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-205",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-208",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-209",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-210",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-215",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-216",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-220",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-227",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-230",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-233",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-235",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-239",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-240",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-241",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-245",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-247",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-250",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-277",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-286",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-289",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-291",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-295",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-296",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-297",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-298",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-303",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-305",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-311",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-313",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-317",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-321",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-331",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-335",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-337",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-338",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-340",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-342",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-344",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-349",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-355",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-379",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-381",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-385",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-386",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-396",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-404",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-406",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-409",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-416",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-418",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-423",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-424",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-426",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-429",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-433",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-434",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-435",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-437",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-438",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-440",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-442",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-443",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-446",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-449",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-452",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-455",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-457",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-461",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-462",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-465",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-466",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-469",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-470",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-474",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-476",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-480",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-481",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-482",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-484",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-491",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-494",
+      "gold": "risk",
+      "predicted": "none"
+    },
+    {
+      "id": "b30-498",
+      "gold": "risk",
+      "predicted": "none"
+    }
+  ],
+  "error_cases": [],
+  "thresholds": {
+    "depression": 0.5,
+    "anxiety": 0.5
+  },
+  "sublabel_metrics": {
+    "depression": {
+      "precision": 0.8571,
+      "recall": 0.3529,
+      "f1": 0.5,
+      "support": 17
+    },
+    "anxiety": {
+      "precision": 1.0,
+      "recall": 0.55,
+      "f1": 0.7097,
+      "support": 20
+    },
+    "any_signal": {
+      "precision": 0.9412,
+      "recall": 0.4444,
+      "f1": 0.6038,
+      "support": 36
+    }
+  },
+  "sublabel_counts": {
+    "depression": {
+      "labeled": 140,
+      "null_excluded": 360
+    },
+    "anxiety": {
+      "labeled": 159,
+      "null_excluded": 341
+    },
+    "any_signal": {
+      "labeled": 140,
+      "null_excluded": 360
+    }
+  },
+  "generated_at": "2026-11-11T01:15:37+00:00",
+  "dataset": {
+    "name": "evalset_balanced30.jsonl",
+    "count": 500
+  },
+  "model": {
+    "name": "stub-0.1",
+    "version": "stub-0.1"
+  }
+}

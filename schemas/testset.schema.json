@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "테스트셋 파일은 JSONL이다. 파일의 각 줄이 이 스키마를 따르는 객체 하나여야 한다.",
+  "properties": {
+    "id": {
+      "description": "테스트셋 안에서 유일한 식별자. predictions·리포트가 이 id로 연결된다. 파일 전체에서의 유일성은 검증 도구 책임이다(JSON Schema로 표현 불가).",
+      "minLength": 1,
+      "type": "string"
+    },
+    "label": {
+      "description": "최종 정답. none=위험 아님, risk=위험. 등급(danger/emergency)으로 붙인 정답도 허용하며 채점할 때 risk로 접어 이진으로 계산한다.",
+      "enum": [
+        "none",
+        "risk",
+        "danger",
+        "emergency"
+      ],
+      "type": "string"
+    },
+    "certainty": {
+      "additionalProperties": false,
+      "description": "축별 판정 확실성. 없으면 전부 certain으로 본다. ambiguous=발화만으로 두 가지 이상 해석이 성립해 사유를 certainty_reason에 남긴 경우, needs_context=단일 발화로 판정 불가(채점 제외 대상).",
+      "properties": {
+        "anxiety": {
+          "enum": ["certain", "ambiguous", "needs_context"],
+          "type": "string"
+        },
+        "depression": {
+          "enum": ["certain", "ambiguous", "needs_context"],
+          "type": "string"
+        },
+        "grade": {
+          "enum": ["certain", "ambiguous", "needs_context"],
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "certainty_reason": {
+      "additionalProperties": false,
+      "description": "축별 ambiguous/needs_context 사유 한 줄.",
+      "properties": {
+        "anxiety": {
+          "type": "string"
+        },
+        "depression": {
+          "type": "string"
+        },
+        "grade": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "note": {
+      "description": "라벨을 이렇게 단 이유 등 자유 메모.",
+      "type": "string"
+    },
+    "source": {
+      "description": "이 항목의 출처. 예: rule-test(규칙 테스트 케이스 변환), manual(수기 작성).",
+      "type": "string"
+    },
+    "sublabels": {
+      "additionalProperties": false,
+      "description": "하위 라벨. 최종 판정에 쓰지 않더라도 성능 보정용으로 함께 가져간다. 값을 모르면 null(미라벨)로 둘 수 있다.",
+      "properties": {
+        "anxiety": {
+          "description": "불안 해당 여부. 후속 모델 단계 평가용.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "depression": {
+          "description": "우울 해당 여부. 후속 모델 단계 평가용.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      },
+      "type": "object"
+    },
+    "text": {
+      "description": "평가 대상 발화 원문. 정규화하지 않은 그대로 적는다.",
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "text",
+    "label"
+  ],
+  "title": "riskcheck 테스트셋 항목 (JSONL 한 줄)",
+  "type": "object"
+}

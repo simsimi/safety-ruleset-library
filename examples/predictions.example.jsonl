@@ -1,0 +1,12 @@
+{"id": "t-001", "stage": "dict", "source_version": "0.1.0", "predicted": "risk", "matches": [{"pattern_id": "dg-want-die", "matched": "죽고싶"}]}
+{"id": "t-002", "stage": "dict", "source_version": "0.1.0", "predicted": "risk", "matches": [{"pattern_id": "em-pill-all-1", "matched": "약을다먹었"}]}
+{"id": "t-003", "stage": "dict", "source_version": "0.1.0", "predicted": "none", "matches": []}
+{"id": "t-004", "stage": "dict", "source_version": "0.1.0", "predicted": "risk", "matches": [{"pattern_id": "dg-risk-words", "matched": "자살"}]}
+{"id": "t-005", "stage": "dict", "source_version": "0.1.0", "predicted": "risk", "matches": [{"pattern_id": "em-wrist-cut", "matched": "손목을그었"}]}
+{"id": "t-006", "stage": "dict", "source_version": "0.1.0", "predicted": "none", "matches": []}
+{"id": "t-007", "stage": "dict", "source_version": "0.1.0", "predicted": "none", "matches": []}
+{"id": "t-008", "stage": "dict", "source_version": "0.1.0", "predicted": "none", "matches": []}
+{"id": "t-009", "stage": "dict", "source_version": "0.1.0", "predicted": "risk", "matches": [{"pattern_id": "em-will", "matched": "유서를 썼"}]}
+{"id": "t-010", "stage": "dict", "source_version": "0.1.0", "predicted": "risk", "matches": [{"pattern_id": "dg-end-it", "matched": "끝내고싶"}]}
+{"id": "t-011", "stage": "dict", "source_version": "0.1.0", "predicted": "risk", "matches": [{"pattern_id": "dg-want-die", "matched": "죽고싶"}]}
+{"id": "t-012", "stage": "dict", "source_version": "0.1.0", "predicted": "none", "matches": []}

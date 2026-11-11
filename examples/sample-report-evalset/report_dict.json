@@ -1,0 +1,412 @@
+{
+  "schema_version": "0.1",
+  "stage": "dict",
+  "counts": {
+    "total": 500,
+    "evaluated": 500,
+    "errors": 0
+  },
+  "overall": {
+    "accuracy": 0.954,
+    "macro_f1": 0.9391
+  },
+  "per_label": {
+    "none": {
+      "precision": 1.0,
+      "recall": 0.9403,
+      "f1": 0.9692,
+      "support": 385
+    },
+    "risk": {
+      "precision": 0.8333,
+      "recall": 1.0,
+      "f1": 0.9091,
+      "support": 115
+    }
+  },
+  "binary_risk": {
+    "precision": 0.8333,
+    "recall": 1.0,
+    "f1": 0.9091,
+    "support": 115
+  },
+  "confusion": {
+    "labels": [
+      "none",
+      "risk"
+    ],
+    "matrix": [
+      [
+        362,
+        23
+      ],
+      [
+        0,
+        115
+      ]
+    ]
+  },
+  "false_positives": [
+    {
+      "id": "s-043",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-044",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-045",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-051",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-052",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-053",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-054",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-055",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-056",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-057",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-058",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-091",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-092",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-093",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-096",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-097",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-098",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-099",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-100",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-101",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-102",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "s-147",
+      "gold": "none",
+      "predicted": "risk"
+    },
+    {
+      "id": "h-021",
+      "gold": "none",
+      "predicted": "risk"
+    }
+  ],
+  "false_negatives": [],
+  "error_cases": [],
+  "certainty_summary": {
+    "counts": {
+      "certain": 490,
+      "ambiguous": 10,
+      "needs_context": 0
+    },
+    "certain_only": {
+      "n": 490,
+      "accuracy": 0.9592,
+      "binary_risk": {
+        "precision": 0.8438,
+        "recall": 1.0,
+        "f1": 0.9153,
+        "support": 108
+      }
+    },
+    "ambiguous_directional": {
+      "n": 10,
+      "correct": 7,
+      "miss": 0,
+      "overcall": 3
+    }
+  },
+  "subgroup_metrics": {
+    "hyperbole_meme": {
+      "n": 5,
+      "positives": 5,
+      "detected": 5,
+      "detection_rate": 1.0,
+      "negatives": 0,
+      "false_positives": 0,
+      "fp_rate": null
+    },
+    "indirect_question": {
+      "n": 3,
+      "positives": 0,
+      "detected": 0,
+      "detection_rate": null,
+      "negatives": 3,
+      "false_positives": 3,
+      "fp_rate": 1.0
+    }
+  },
+  "pattern_stats": [
+    {
+      "pattern_id": "dg-risk-word",
+      "hits": 65,
+      "fp_hits": 12
+    },
+    {
+      "pattern_id": "dg-phrase-01",
+      "hits": 27,
+      "fp_hits": 7
+    },
+    {
+      "pattern_id": "em-will",
+      "hits": 6,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-10",
+      "hits": 5,
+      "fp_hits": 2
+    },
+    {
+      "pattern_id": "ex2-04",
+      "hits": 4,
+      "fp_hits": 2
+    },
+    {
+      "pattern_id": "ex3-03",
+      "hits": 4,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex3-06",
+      "hits": 3,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-jump",
+      "hits": 3,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-dg-01",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-02",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-em-01",
+      "hits": 2,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-02",
+      "hits": 2,
+      "fp_hits": 1
+    },
+    {
+      "pattern_id": "em-phrase-01",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-08",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-13",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-14",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-15",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-17",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-18",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-16",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-03",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-04",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "dg-phrase-07",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-04",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-03",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-09",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-08",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex2-19",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-10",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "em-phrase-12",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-dg-02",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-dg-03",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-dg-04",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-dg-05",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-dg-06",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-dg-07",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-dg-08",
+      "hits": 1,
+      "fp_hits": 0
+    },
+    {
+      "pattern_id": "ex-em-02",
+      "hits": 1,
+      "fp_hits": 0
+    }
+  ],
+  "generated_at": "2026-11-11T01:15:36+00:00",
+  "dataset": {
+    "name": "evalset_human.jsonl",
+    "count": 500
+  },
+  "dictionary": {
+    "name": "(저장된 결과)",
+    "version": "(저장된 결과)"
+  }
+}
