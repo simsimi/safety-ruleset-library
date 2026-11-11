@@ -23,7 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_URL = os.environ.get(
     "RISKCHECK_MODELS_URL",
-    "https://github.com/simsimi/safety-ruleset-library/releases/latest/download/sw1-models.zip",
+    "https://github.com/simsimi/safety-ruleset-library/releases/latest/download/safety-ruleset-library-models.zip",
 )
 EXPECTED_DIRS = ("emotion-heads-v1", "harm-genuine-v2")
 
