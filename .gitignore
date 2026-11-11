@@ -1,0 +1,12 @@
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+runs/
+models/emotion-heads-v1/
+models/emotion-heads-v2/
+models/harm-genuine-v2/
+models/kobert-emotion/
+models/kobert-emotion-hf/
